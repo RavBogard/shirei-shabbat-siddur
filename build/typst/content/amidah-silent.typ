@@ -22,7 +22,7 @@
   "אֱלֹהֵי שָׂרָה, אֱלֹהֵי רִבְקָה, אֱלֹהֵי לֵאָה, אֱלֹהֵי רָחֵל, אֱלֹהֵי בִּלְהָה, וֵאלֹהֵי זִלְפָּה.")
 #stanza("Ha’El hagadól hagibór v’hanorá, El elyón, gomél chasadím tovím, v’konéh hakól, v’zochér chasdéi avót v’imahót, umeví go’él livnéi v’neihém l’má’an sh’mo b’ahavá.",
   "הָאֵל הַגָּדוֹל הַגִּבּוֹר וְהַנּוֹרָא, אֵל עֶלְיוֹן, גּוֹמֵל חֲסָדִים טוֹבִים, וְקוֹנֵה הַכֹּל, וְזוֹכֵר חַסְדֵי אָבוֹת וְאִמָּהוֹת, וּמֵבִיא גוֹאֵל לִבְנֵי בְנֵיהֶם לְמַעַן שְׁמוֹ בְּאַהֲבָה.")
-#seasonmark[Ten Days: Zochrénu — see p. 52]
+#seasonmark[Ten Days: Zochrénu — see p. 57]
 #ritual([some bow again as the blessing seals])
 #stanza("Mélech ozér umoshí’a umagén. Barúch atá Adonai, magén Avrahám v’ezrát Sará.",
   "מֶלֶךְ עוֹזֵר וּמוֹשִׁיעַ וּמָגֵן. בָּרוּךְ אַתָּה יְיָ, מָגֵן אַבְרָהָם וְעֶזְרַת שָׂרָה.")
@@ -40,7 +40,7 @@
 #seasonal("From Pesach through Sukkot", "morid hatál", "מוֹרִיד הַטָּל", "You cause the dew to fall.")
 #stanza("M’chalkél chayím b’chésed, m’chayéh hakól/meitím b’rachamím rabím, soméch nof’lím, v’rofé cholím, umatír asurím, umkayém emunató lishenéi afár. Mi chamócha bá’al g’vurót, umi dómeh lach, mélech memít umchayéh umatzmí’ach y’shu’á.",
   "מְכַלְכֵּל חַיִּים בְּחֶסֶד, מְחַיֵּה הַכֹּל/מֵתִים בְּרַחֲמִים רַבִּים, סוֹמֵךְ נוֹפְלִים, וְרוֹפֵא חוֹלִים, וּמַתִּיר אֲסוּרִים, וּמְקַיֵּם אֱמוּנָתוֹ לִישֵׁנֵי עָפָר. מִי כָמוֹךָ בַּעַל גְּבוּרוֹת, וּמִי דּוֹמֶה לָּךְ, מֶלֶךְ מֵמִית וּמְחַיֶּה וּמַצְמִיחַ יְשׁוּעָה.")
-#seasonmark[Ten Days: Mi Chamocha av harachamim — see p. 52]
+#seasonmark[Ten Days: Mi Chamocha av harachamim — see p. 57]
 #stanza("V’ne’emán atá l’hachayót hakól/meitím. Barúch atá Adonai, m’chayéh hakól/meitím.",
   "וְנֶאֱמָן אַתָּה לְהַחֲיוֹת הַכֹּל/מֵתִים. בָּרוּךְ אַתָּה יְיָ, מְחַיֵּה הַכֹּל/מֵתִים.")
 #eng("You are forever mighty — You give life to all — revive the dead — and Your saving power is great. You sustain the living with love, giving life to all with great compassion; You hold up the falling, heal the sick, free the captive, and keep faith with those who sleep in the dust.")
@@ -51,7 +51,7 @@
 #startprayer("The Holiness of the Name", "קְדֻשַּׁת הַשֵּׁם", sec: "Amidah")
 #stanza("Atá kadósh v’shimchá kadósh, ukdoshím b’chol yom y’hal’lúcha, sélah. Barúch atá Adonai, ha’El hakadósh.",
   "אַתָּה קָדוֹשׁ וְשִׁמְךָ קָדוֹשׁ, וּקְדוֹשִׁים בְּכָל יוֹם יְהַלְלוּךָ, סֶלָה. בָּרוּךְ אַתָּה יְיָ, הָאֵל הַקָּדוֹשׁ.")
-#seasonmark[Ten Days: haMélech hakadósh — see p. 53]
+#seasonmark[Ten Days: haMélech hakadósh — see p. 58]
 #engn("You are holy, and Your name is holy, and those who seek holiness praise You every day. Blessed are You, the holy God.",
   [In the morning and afternoon, when the Amidah is repeated aloud, this blessing opens into the communal Kedushah. The evening Amidah is never repeated — so here, even in a full congregation, it keeps its short, ancient form: three plain sentences that simply hold the word "holy" up to the light. (Friday night’s communal sanctification comes later, in Me’ein Sheva.)])
 
@@ -72,7 +72,7 @@
 #startprayer("Draw Near", "עֲבוֹדָה", sec: "Amidah")
 #stanza("R’tzéh Adonai Elohéinu b’am’chá Yisra’él uvitfilatám, uvahavá t’kabél b’ratzón, uthí l’ratzón tamíd avodát Yisra’él amécha.",
   "רְצֵה יְיָ אֱלֹהֵינוּ בְּעַמְּךָ יִשְׂרָאֵל וּבִתְפִלָּתָם, וּבְאַהֲבָה תְקַבֵּל בְּרָצוֹן, וּתְהִי לְרָצוֹן תָּמִיד עֲבוֹדַת יִשְׂרָאֵל עַמֶּךָ.")
-#seasonmark[Ya’aleh V’yavo — on Rosh Chodesh & festivals, see p. 48]
+#seasonmark[Ya’aleh V’yavo — on Rosh Chodesh & festivals, see p. 54]
 #stanza("V’techezéna einéinu b’shuvchá l’Tziyón b’rachamím. Barúch atá Adonai, hamachazír sh’chinató l’Tziyón.",
   "וְתֶחֱזֶינָה עֵינֵינוּ בְּשׁוּבְךָ לְצִיּוֹן בְּרַחֲמִים. בָּרוּךְ אַתָּה יְיָ, הַמַּחֲזִיר שְׁכִינָתוֹ לְצִיּוֹן.")
 #eng("Take pleasure, O Source, our God, in Your people Israel and in their prayer; in love receive that prayer with favor, and may the service of Your people Israel always be pleasing to You.")
@@ -84,10 +84,10 @@
 #ritual([some bow low here, like a reed])
 #stanza("Modím anáchnu lach, sha’atá hu Adonai Elohéinu ve’lohéi avotéinu v’imotéinu l’olám va’éd. Tzur chayéinu, magén yish’énu atá hu l’dor vadór. Nodéh l’chá unsapér t’hilatécha, al chayéinu ham’surím b’yadécha, v’al nishmotéinu hap’kudót lach, v’al nisécha sheb’chol yom imánu, v’al nifl’otécha v’tovotécha sheb’chol et, érev vavóker v’tzohoráyim.",
   "מוֹדִים אֲנַחְנוּ לָךְ, שָׁאַתָּה הוּא יְיָ אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ וְאִמּוֹתֵינוּ לְעוֹלָם וָעֶד. צוּר חַיֵּינוּ, מָגֵן יִשְׁעֵנוּ אַתָּה הוּא לְדוֹר וָדוֹר. נוֹדֶה לְּךָ וּנְסַפֵּר תְּהִלָּתֶךָ, עַל חַיֵּינוּ הַמְּסוּרִים בְּיָדֶךָ, וְעַל נִשְׁמוֹתֵינוּ הַפְּקוּדוֹת לָךְ, וְעַל נִסֶּיךָ שֶׁבְּכָל יוֹם עִמָּנוּ, וְעַל נִפְלְאוֹתֶיךָ וְטוֹבוֹתֶיךָ שֶׁבְּכָל עֵת, עֶרֶב וָבֹקֶר וְצָהֳרָיִם.")
-#seasonmark[Al HaNisim — on Hanukkah & Purim, see p. 49]
+#seasonmark[Al HaNisim — on Hanukkah & Purim, see p. 54]
 #stanza("Hatóv ki lo chalú rachamécha, v’hamrachém ki lo támu chasadécha, me’olám kivínu lach.",
   "הַטּוֹב כִּי לֹא כָלוּ רַחֲמֶיךָ, וְהַמְרַחֵם כִּי לֹא תַמּוּ חֲסָדֶיךָ, מֵעוֹלָם קִוִּינוּ לָךְ.")
-#seasonmark[Ten Days: Uch’tóv l’chayím — see p. 52]
+#seasonmark[Ten Days: Uch’tóv l’chayím — see p. 57]
 #block(breakable:false)[
   #ritual([some bow once more, in thanks])
   #stanza("V’al kulám yitbaréch v’yitromám shimchá tamíd l’olám va’éd. V’chol hachayím yodúcha sélah, vihal’lú et shimchá be’emét, ha’El y’shu’aténu v’ezraténu sélah. Barúch atá Adonai, hatóv shimchá ulchá na’éh l’hodót.",
@@ -102,7 +102,7 @@
 #startprayer("Abundant Peace", "שָׁלוֹם רָב", sec: "Amidah")
 #stanza("Shalóm rav al Yisra’él am’chá tasím l’olám, ki atá hu mélech adón l’chol hashalóm. V’tov b’einécha l’varéch et am’chá Yisra’él b’chol et uvchol sha’á bishlomécha.",
   "שָׁלוֹם רָב עַל יִשְׂרָאֵל עַמְּךָ תָּשִׂים לְעוֹלָם, כִּי אַתָּה הוּא מֶלֶךְ אָדוֹן לְכָל הַשָּׁלוֹם. וְטוֹב בְּעֵינֶיךָ לְבָרֵךְ אֶת עַמְּךָ יִשְׂרָאֵל בְּכָל עֵת וּבְכָל שָׁעָה בִּשְׁלוֹמֶךָ.")
-#seasonmark[Ten Days: B’séfer chayím — see p. 52]
+#seasonmark[Ten Days: B’séfer chayím — see p. 57]
 #chatimah("Barúch atá Adonai, hamvaréch et amó Yisra’él bashalóm.",
   "בָּרוּךְ אַתָּה יְיָ, הַמְבָרֵךְ אֶת עַמּוֹ יִשְׂרָאֵל בַּשָּׁלוֹם.")
 #eng("Grant abundant peace to Your people Israel forever, for You are the source of all peace. May it be good in Your eyes to bless Your people Israel, in every season and at every hour, with Your peace.")
