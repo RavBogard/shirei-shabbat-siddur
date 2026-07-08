@@ -1,0 +1,47 @@
+# Build the siddur PDF on every push that could change it.
+# Zero network installs by design: the Typst binary is vendored in
+# build/tools/ (setup.sh unpacks it to /tmp/typst-bin with tar/xz, both
+# preinstalled on ubuntu-latest) and every font is vendored in build/fonts/.
+name: Build siddur
+
+on:
+  push:
+    paths:
+      - "build/**"
+      - ".github/workflows/build-siddur.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: build-siddur-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up vendored Typst toolchain
+        run: bash build/setup.sh
+
+      # NUL-byte integrity scan + full compile gate (also regenerates the
+      # Mi Shebeirach selector; CI has no mi-shebeirach-local.typ, so the
+      # public placeholder is what gets built).
+      - name: Integrity gate (build/check.sh)
+        run: bash build/check.sh
+
+      - name: Compile the book
+        run: |
+          /tmp/typst-bin/typst compile --font-path build/fonts \
+            build/typst/shirei-shabbat-FULL.typ shirei-shabbat.pdf
+
+      - name: Short SHA for the artifact name
+        run: echo "SHORT_SHA=${GITHUB_SHA::7}" >> "$GITHUB_ENV"
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: shirei-shabbat-${{ env.SHORT_SHA }}
+          path: shirei-shabbat.pdf
+          if-no-files-found: error

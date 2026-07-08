@@ -1,0 +1,76 @@
+# .gitignore — Shirei Shabbat public-repo policy
+#
+# WHAT SHIPS (tracked): everything a colleague needs to rebuild and adapt the book.
+#   build/                    the zero-network toolchain — vendored Typst tarball
+#                             (build/tools/) and vendored OFL fonts (build/fonts/)
+#   build/typst/book.typ      the template: palette, rail, helpers, UNITS/CAPTIONS
+#   build/typst/shirei-shabbat-FULL.typ   the service order (the whole book)
+#   build/typst/content/*.typ the canonical prayer-unit sources
+#   liturgy-map/              the why-record: DECISIONS-LOG, CAPTIONS, RITUAL-MARKS…
+#   01_STYLE_GUIDE.md         the voice bible (deliberately KEPT — colleagues need it)
+#   CLAUDE.md · FORK-YOUR-OWN.md · README.md · LICENSE.md
+#
+# WHAT STAYS PRIVATE (ignored): internal process docs, worklogs, critiques, dated
+# proofs, design experiments — and the licensed Debbie Friedman / Drorah Setel
+# Mi Shebeirach setting (build/typst/content/mi-shebeirach-local.typ), which each
+# community must license or replace (the committed placeholder explains how).
+#
+# NOTE: .gitignore does not untrack files that are already committed. The matching
+# `git rm -r --cached` pass (and the fresh-history publish step) lives in
+# PUBLISH-CHECKLIST.md.
+
+# ---- internal process directories -------------------------------------------
+worklog/
+research/
+critiques/
+design-lab/
+proofs/
+
+# ---- internal process docs (repo root) --------------------------------------
+# Glob forms so future session docs (V9, V10…) can't leak the way a literal
+# V8-only list would. (Dry-run 2026-07-07 caught V8-SESSION-STATUS.md slipping
+# through the earlier explicit list.)
+HANDOFF-*.md
+RUN-V*-PROMPT.md
+REVISION-PLAN-*.md
+*SESSION-STATUS*.md
+StartHere.md
+00_PROJECT_BRIEF.md
+02_CONTENT_PLAN.md
+03_MARGIN_SYSTEM_PLAN.md
+PROJECT_PLAN.md
+KICKOFF_PROMPT.md
+DROP_IN_KICKOFF.md
+# (01_STYLE_GUIDE.md is intentionally NOT listed here — it ships.)
+
+# ---- the private Mi Shebeirach setting + its build-generated selector -------
+# mi-shebeirach-local.typ  = the Friedman/Setel unit, licensed to CRC only
+# mi-shebeirach.typ        = one-line selector written by build/setup.sh / check.sh
+build/typst/content/mi-shebeirach-local.typ
+build/typst/content/mi-shebeirach.typ
+
+# ---- build outputs & scratch -------------------------------------------------
+out*.pdf
+out*.png
+*.tmp
+tmp/
+build/latex/*.pdf
+build/latex/*.log
+build/latex/*.aux
+build/latex/*.err
+build/latex/*.png
+
+# ---- stray sandbox write-test artifacts --------------------------------------
+.wtest
+
+# ---- OS junk ------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+NUL
+
+# ---- post-kit session/process files (added at publish time 2026-07-08) -------
+publish-kit/
+EDITIONS-ARCHITECTURE.md
+RESUME-V8-PROMPT.md
+RUN-PUBLISH-PROMPT.md
