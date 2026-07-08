@@ -27,7 +27,7 @@
 #stanza("Mélech ozér umoshí’a umagén. Barúch atá Adonai, magén Avrahám v’ezrát Sará.",
   "מֶלֶךְ עוֹזֵר וּמוֹשִׁיעַ וּמָגֵן. בָּרוּךְ אַתָּה יְיָ, מָגֵן אַבְרָהָם וְעֶזְרַת שָׂרָה.")
 #eng("Blessed are You, our God and God of our fathers and mothers — God of Abraham, God of Isaac, and God of Jacob; God of Sarah, God of Rebecca, God of Leah, God of Rachel, God of Bilhah, and God of Zilpah.")
-#eng("Great, mighty, and awesome God, God most high, who acts with lovingkindness, who creates all, who remembers the faithfulness of our fathers and mothers, and who lovingly brings redemption to their children’s children for the sake of Your name.")
+#eng("Great, mighty, and awesome God, God most high, who acts with love, who creates all, who remembers the faithfulness of our fathers and mothers, and who lovingly brings redemption to their children’s children for the sake of Your name.")
 #engn("You are our help, our rescue, our shield. Blessed are You, the One, shield of Abraham and help of Sarah.",
   [The oldest layer of this blessing names only the patriarchs; egalitarian siddurim add the four matriarchs, and here we go further, reclaiming Bilhah and Zilpah — the enslaved women (Genesis 30) whose children became four of the twelve tribes but whom the tradition long left unnamed. To speak their names is to insist that the covenant runs through them too.])
 
@@ -43,8 +43,8 @@
 #seasonmark[Ten Days: Mi Chamocha av harachamim — see p. 52]
 #stanza("V’ne’emán atá l’hachayót hakól/meitím. Barúch atá Adonai, m’chayéh hakól/meitím.",
   "וְנֶאֱמָן אַתָּה לְהַחֲיוֹת הַכֹּל/מֵתִים. בָּרוּךְ אַתָּה יְיָ, מְחַיֵּה הַכֹּל/מֵתִים.")
-#eng("You are forever mighty — You give life to all / revive the dead, and Your saving power is great. You sustain the living with love, giving life to all with great compassion; You hold up the falling, heal the sick, free the captive, and keep faith with those who sleep in the dust.")
-#engn("Who is like You, Source of all power? Who can compare — bringing death and life, and making rescue blossom? You are faithful to give life to all. Blessed are You, the One who gives life to all / who revives the dead.",
+#eng("You are forever mighty — You give life to all — revive the dead — and Your saving power is great. You sustain the living with love, giving life to all with great compassion; You hold up the falling, heal the sick, free the captive, and keep faith with those who sleep in the dust.")
+#engn("Who is like You, Source of all power? Who can compare — bringing death and life, and making rescue blossom? You are faithful to give life to all — to revive the dead. Blessed are You, the One who gives life to all — who revives the dead.",
   [This siddur prints both, side by side — מְחַיֵּה הַכֹּל / מֵתִים, "who gives life to all," "who revives the dead." The older phrase (#emph[m’chayeh (ha)metim]) speaks of reviving the dead; the Reform phrase (#emph[m’chayeh hakol]) opens that hope to all. Pray whichever speaks to you — many hear it as metaphor for renewal: the buried seed, the waking dawn, the promise that nothing loved is finally lost.])
 
 // ===================== 3 · K’DUSHAT HASHEM =====================
@@ -65,7 +65,7 @@
   "אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ וְאִמּוֹתֵינוּ, רְצֵה בִמְנוּחָתֵנוּ, קַדְּשֵׁנוּ בְּמִצְוֹתֶיךָ, וְתֵן חֶלְקֵנוּ בְּתוֹרָתֶךָ, שַׂבְּעֵנוּ מִטּוּבֶךָ, וְשַׂמְּחֵנוּ בִּישׁוּעָתֶךָ, וְטַהֵר לִבֵּנוּ לְעָבְדְּךָ בֶּאֱמֶת. וְהַנְחִילֵנוּ יְיָ אֱלֹהֵינוּ בְּאַהֲבָה וּבְרָצוֹן שַׁבַּת קָדְשֶׁךָ, וְיָנוּחוּ בָהּ יִשְׂרָאֵל מְקַדְּשֵׁי שְׁמֶךָ. בָּרוּךְ אַתָּה יְיָ, מְקַדֵּשׁ הַשַּׁבָּת.")
 #eng("You made the seventh day holy to Your name, the crown of the making of heaven and earth. You blessed it above all days and made it holy above all seasons — as it is written in Your Torah:")
 #eng("The heavens and the earth were finished, and all their array. On the seventh day God completed the work that had been made, and rested on the seventh day from all that work; God blessed the seventh day and made it holy, for on it God rested from all the work of creation. (Genesis 2:1–3)")
-#engn("Our God and God of our fathers and mothers — take pleasure in our rest. Make us holy through Your mitzvot and give us our portion in Your Torah; fill us with Your goodness, gladden us with Your saving help, and make our hearts pure to serve You in truth. In love and favor, grant us Your holy Shabbat as our inheritance, and let all who honor Your name find rest on it. Blessed are You, who makes Shabbat holy.",
+#engn("Our God and God of our fathers and mothers — take pleasure in our rest. Make us holy through Your mitzvot and give us our portion in Your Torah; fill us with Your goodness, gladden us with Your saving help, and make our hearts pure to serve You in truth. In love and favor, grant us Your holy Shabbat as our inheritance, and let Israel, who make Your name holy, find rest in her. Blessed are You, who makes Shabbat holy.",
   [The middle blessing of every Amidah changes with the day; on Shabbat it becomes this meditation on rest. At its center sits #emph[Vaychulu] (Genesis 2:1–3), the Torah’s own account of the first Shabbat — so that when we rest, we are not merely stopping work but re-enacting the completion of creation.])
 
 // ===================== 5 · AVODAH / R’TZEH =====================
@@ -75,7 +75,7 @@
 #seasonmark[Ya’aleh V’yavo — on Rosh Chodesh & festivals, see p. 48]
 #stanza("V’techezéna einéinu b’shuvchá l’Tziyón b’rachamím. Barúch atá Adonai, hamachazír sh’chinató l’Tziyón.",
   "וְתֶחֱזֶינָה עֵינֵינוּ בְּשׁוּבְךָ לְצִיּוֹן בְּרַחֲמִים. בָּרוּךְ אַתָּה יְיָ, הַמַּחֲזִיר שְׁכִינָתוֹ לְצִיּוֹן.")
-#eng("Take pleasure, O One our God, in Your people Israel and in their prayer; in love receive that prayer with favor, and may the service of Your people Israel always be pleasing to You.")
+#eng("Take pleasure, O Source, our God, in Your people Israel and in their prayer; in love receive that prayer with favor, and may the service of Your people Israel always be pleasing to You.")
 #engn("May our eyes behold Your loving return to Zion. Blessed are You, who returns Your presence to Zion.",
   [This blessing once pleaded for the restoration of the Temple sacrifices; here that language is set aside, keeping only the deeper longing beneath it — that the #emph[Shechinah], the indwelling Presence, come home, and that our own prayer be received as an offering of the heart.])
 

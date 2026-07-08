@@ -43,8 +43,8 @@
 #stanza("Shalóm aléichem malachéi hashalóm · Bo’achém l’shalóm malachéi hashalóm · Barchúni l’shalóm malachéi hashalóm · Tzet’chém l’shalóm malachéi hashalóm.",
   "שָׁלוֹם עֲלֵיכֶם מַלְאֲכֵי הַשָּׁלוֹם · בּוֹאֲכֶם לְשָׁלוֹם מַלְאֲכֵי הַשָּׁלוֹם · בָּרְכוּנִי לְשָׁלוֹם מַלְאֲכֵי הַשָּׁלוֹם · צֵאתְכֶם לְשָׁלוֹם מַלְאֲכֵי הַשָּׁלוֹם.", label:"As we sing it")
 #eng("Peace be upon you, angels of peace, angels of the Most High.")
-#eng("Come in peace, bless me with peace, and take your leave in peace.")
-#engn("You charge Your angels to guard us on all our ways.",
+#eng("Come in peace; bless me with peace.")
+#engn("And when you take your leave, go in peace, angels of peace.",
   [The Talmud imagines two angels walking each of us home on Shabbat eve — and teaches that if
   the home is warm and ready, even the doubting angel must answer #emph[Amen]. The hymn itself is younger,
-  composed by the kabbalists of Safed in the sixteenth or seventeenth century.])
+  composed by the kabbalists of Safed in the sixteenth or seventeenth century. Behind the hymn stands an older promise: "You charge Your angels to guard us on all our ways" (Psalm 91:11).])

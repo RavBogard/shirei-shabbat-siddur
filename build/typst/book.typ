@@ -513,6 +513,11 @@
 #let note(s)={ footnote[#s] }
 // english line with its teaching-note marker anchored inline at the end of the text
 #let engn(s, n)={ v(1pt); text(size:9.5pt, style:"italic", fill:rgb("#2e2c26"))[#s#footnote(n)]; v(4pt) }
+// labeled variants for L'cha Dodi-style English (Wave 3 · T7): a compact inline
+// small-caps tag before the line, NOT a separate eyebrow block, so it never adds
+// line-height / reflows the spread.
+#let engl(label, s)={ v(1pt); text(size:9.5pt, style:"italic", fill:rgb("#2e2c26"))[#text(size:7pt, tracking:0.5pt, fill:GOLDD)[#smallcaps(label)] #h(4pt) #s]; v(4pt) }
+#let engnl(label, s, n)={ v(1pt); text(size:9.5pt, style:"italic", fill:rgb("#2e2c26"))[#text(size:7pt, tracking:0.5pt, fill:GOLDD)[#smallcaps(label)] #h(4pt) #s#footnote(n)]; v(4pt) }
 
 // seasonal insertion (recessive, inline) for small frequent swaps (mashiv haruach / morid hatal)
 // COMPACTED 2026-07-06 (Daniel): the boxed treatment ate too much vertical

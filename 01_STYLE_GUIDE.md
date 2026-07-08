@@ -32,7 +32,7 @@ from the existing ones. When in doubt, reread the draft sections, then imitate.
 ## Translation voice — the heart of the book
 
 - **Divine name in English is flexible** (SETTLED, superseding the old HaShem-only rule): HaShem, the One, the Holy One, the Eternal, Source of all being, and the like. Never "the Lord," never "King." Epithets are always **capitalized** ("Source of the universe"), and repeats within one prayer agree. Never "Adonai" in the English (that belongs to transliteration only).
-- Liberation language: *y'shuah* → "liberation" (not "salvation"). "Shout to the rock of our liberation."
+- Rescue language: *y'shuah* → "rescue" / "saving help" (warm, concrete; never "salvation"). "Shout to the rock of our rescue."
 - Non-hierarchical, embodied, present-tense energy: "we'll dance and delight in you," "Hurry, dear one — the time is here."
 - Em-dashes for breath and rhythm. Sentence fragments welcome. Lowercase intimacy over liturgical formality.
 - Kavod may stay untranslated when translation would flatten it ("all of it cries: kavod").
