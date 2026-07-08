@@ -491,3 +491,67 @@ Attribution: Daniel, voice memo, 2026-07-06.
 - **Wave 5:** Sung/Recited layer completed on the stanza-label mechanism (sung anchors flagged for Daniel’s audit vs actual CRC practice); L’cha Dodi REFRAIN + numbered verses 1–9 + worded refrain; aleichem accent dropped.
 - **Wave 6 (partial):** R3 translit → 10pt upright, leading 0.8em book-wide; Hashkivenu / Shalom Aleichem / Mourner’s Kaddish given clean single-page starts. **STILL OPEN:** exhaustive spread-by-spread re-pagination + A10 turn-breaks; B13 page numbers on "see back" seasonmarks (do last); confirm folio offset (now PDF−5).
 - Independent read-only audit (2026-07-07) against the rulings + critiques’ CRITICAL/HIGH items: all checked items verified FIXED; clean compile at 63pp.
+
+---
+
+## Panel of 2026-07 — Daniel's rulings (2026-07-08)
+
+Eight-reviewer critique panel (critiques/panel-2026-07/). Rulings:
+
+- **SETTLED — Masoretic Proofreader: approved in full.** Stray dagesh in selah (×2),
+  flattened Vayechulu pointing in K'dushat HaYom (restored to Masoretic pointing,
+  WITHOUT ta'amim — it is silent prayer), vav-conjunction transliteration sweep to the
+  closed form, g'alah rafe in L'cha Dodi v4, v'ratzá accent in Kiddush, accent
+  completions (L'cha Dodi, Shalom Aleichem, candle blessing), m'chayeh dual extended to
+  the fourth G'vurot instance. Style guide amended: ta'amim on chanted biblical verses
+  only. **G'vurot's אֲדֹנָי stands** — it is the received text (parallel to Adonai
+  s'fatai / Ps 51:17), now documented as a conscious exception to the יְיָ rule.
+- **SETTLED — Me'ein Sheva footnote stands as written.** Daniel confirms from
+  congregational knowledge: Me'ein Sheva is new for CRC. The Historian's objection
+  (MT Shabbat Evening I contains Magein Avot) is overruled by the rabbi's ruling.
+- **SETTLED — Aleinu: entirely untouched.** Text AND footnote stay exactly as printed.
+  (Overrules Reform Critic F1/F2 and Historian F2.)
+- **SETTLED — Avot footnote: "restore" → "add"** (the matriarchs were added, never
+  removed); Bilhah & Zilpah remain named in text and note.
+- **SETTLED — Historian's factual fixes: approved in full.** Psalm 29 "sixth of six,"
+  Amram → Geonim hedge, Adon Olam + Alkabetz attribution clauses, Friedman/Setel
+  "written 1987; © 1988," vayinafash as midrash not philology, Ten-Days "one seal
+  changes," B'sefer Chayim rubric ("before its seal," not "in place of its opening"),
+  l'eila ul'eila (Ashkenaz doubling), Kiddush-at-the-back sentence, triple-Vayechulu
+  clause, Me'ein Sheva calendar exceptions, Shalom Aleichem medley labeled "as we
+  sing it." Silent emendations now logged (below).
+- **SETTLED — Hashkivenu: מַלְכֵּנוּ → שׁוֹמְרֵנוּ** in v'ha'amideinu (Daniel, 2026-07-08).
+- **SETTLED — Mi Shebeirach placeholder ancestors: add Bilhah & Zilpah.** (The licensed
+  Friedman/Setel lyric is not touched.)
+- **SETTLED — Reform Critic: no other changes.** Sovereign/front-matter-promise
+  question and the y'shuah concordance beyond the ruled items remain open.
+- **SETTLED — Translator's Critic: approved in full.** Shalom Aleichem gold line
+  re-rendered from the Hebrew (Ps 91:11 moved to the footnote); "liberation" retired
+  (style guide amended to "rescue/saving"); Me'ein Sheva chatimah aligned to K'dushat
+  HaYom; Shabbat is "her" in English (both chatimot); "lovingkindness" → "love";
+  Psalm 95 held to third person; Me'ein Sheva middle blessing broken into breath-length
+  sentences, "awe and trembling"; L'cha Dodi English aligned & labeled to the nine
+  stanzas (translation stays AFTER the hymn — Daniel, 2026-07-08); "that face/that
+  presence" recast; "O One our God" → "O Source, our God"; English "/" duals recast
+  with dashes; Ps 29 closes on untranslated "kavod." **"Awesome" for nora is
+  consciously retained** (consistent ×5; noted, not changed).
+- **SETTLED — Pew Review:** folio numbers added to the four section-opener lists;
+  Psalm 97 page-turn fixed. SUNG tags on the three hymns and the fifth-rail-tab
+  demotion: declined. L'cha Dodi English placement: align+label only (see Translator).
+- **SETTLED — Music Director's review: set aside in full** (no action).
+- **SETTLED — Book Designer: accepted** (see HANDOFF-PANEL-V1.1 Wave 4 for the two
+  findings corrected against the tree; T'filah/Amidah naming needs Daniel's one-word
+  confirm before implementing).
+- **SETTLED — Kaddish Shalem: added** at the close of the Amidah section, after
+  Me'ein Sheva (Traditionalist Dissent; Daniel, 2026-07-08).
+- **SETTLED — Colophon/credits page: added as the book's final page**, with a
+  persistent author credit designed to survive forks (CC BY-NC-SA attribution).
+- **LOGGED — pre-existing silent emendations, now owned in this log:** Hashkivenu
+  omits the v'haser-satan clause; Ya'aleh V'yavo omits zichron mashiach ben David
+  (file header source-comment corrected from "Metsudah, 1981" to "adapted").
+- **SETTLED — Wave 4 · D1, T'filah vs. Amidah naming: AMIDAH EVERYWHERE (Daniel,
+  2026-07-08).** Opener title, Hebrew, and blurb in `shirei-shabbat-FULL.typ` join the
+  rest of the book (tab/rail/mini-TOCs/eyebrows already said Amidah).
+- **OPEN:** Sh'ma second-paragraph footnote (own the cut in one clause? — Historian
+  F3); front-matter "Presence, Source" promise vs. "Sovereign" in Aleinu/Kiddush
+  English (Reform F3).
