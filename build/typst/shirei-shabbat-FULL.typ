@@ -62,13 +62,14 @@
   [The #emph[Amidah] — "the standing" — is the prayer of prayers; tradition also calls it simply #emph[T'filah], "prayer." We pray it silently, each at our own pace — seven
    blessings for Shabbat — then rise together for Vayechulu and Me'ein Sheva, Friday night's own
    communal blessing that gathers the whole Amidah into one.],
-  ("The Silent Amidah","Avot v'Imahot","G'vurot","K'dushat HaShem","K'dushat HaYom","Avodah","Modim","Shalom Rav","Elohai N'tzor","Vayechulu","Me'ein Sheva"),
+  ("The Silent Amidah","Avot v'Imahot","G'vurot","K'dushat HaShem","K'dushat HaYom","Avodah","Modim","Shalom Rav","Elohai N'tzor","Vayechulu","Me'ein Sheva","Kaddish Shalem"),
   cue: [From the silence, we gather again at the gold line and turn.],
   epithet: [standing close, each in our own silence],
   compact: true)
 #include "content/amidah-silent.typ"
 #include "content/amidah-vayechulu.typ"
 #include "content/amidah-meein-sheva.typ"
+#include "content/kaddish-shalem.typ"
 
 // ================= 4 · CONCLUDING =================
 #sectionopener(3, "Concluding Prayers", "סִיּוּם",

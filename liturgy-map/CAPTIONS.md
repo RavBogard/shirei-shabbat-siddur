@@ -160,6 +160,7 @@ sub-mark units.
   "Elohai N'tzor": "It begins by asking to guard the tongue, then opens a silence — room to pour in whatever we could not say aloud.",
   "Vayechulu": "After the long hush of the silent prayer, sound comes back into the room — the very words Genesis uses for the first evening finished.",
   "Me'ein Sheva": "Friday night's own communal blessing, sung aloud — a kindness born to let latecomers finish and walk home safe.",
+  "Kaddish Shalem": "The full Kaddish seals the Amidah — asking, beyond every praise, that the prayers just offered be received.",
   "Mi Shebeirach — Healing": "We speak the names aloud, or hold them in the heart — the community turning to care for its own.",
   "Aleinu": "The bow that seals every service — we bend together, rising toward the day when God's name is One.",
   "Mourner's Kaddish": "Mourners rise; the community answers, and no one grieves alone — a prayer for the dead with no word for death.",
