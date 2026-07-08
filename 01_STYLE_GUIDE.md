@@ -1,4 +1,11 @@
-# Style Guide — Shir Shabbat Siddur
+# Style Guide — Shirei Shabbat Siddur
+
+> **How to read this file:** the voice, translation, and transliteration rules below are
+> canonical and the reason this file ships. Two sections are historical and no longer
+> describe the pipeline: the "Content file format" (a retired markdown/front-matter flow)
+> and "Typesetting notes (Phase 0…)". Author units as `.typ` files that begin with
+> `#import "../book.typ": *` — see `FORK-YOUR-OWN.md`, not those sections. (The book's
+> earlier working name was "Shir Shabbat"; it is now **Shirei Shabbat**.)
 
 Derived from Daniel's June 2026 draft. Every new section must be indistinguishable in voice
 from the existing ones. When in doubt, reread the draft sections, then imitate.

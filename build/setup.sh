@@ -14,4 +14,4 @@ fi
 bash select-mi-shebeirach.sh
 /tmp/typst-bin/typst --version
 echo "fonts: $(ls fonts | wc -l) files in $(pwd)/fonts"
-echo "ready. compile: /tmp/typst-bin/typst compile --font-path \"$(pwd)/fonts\" typst/shirei-shabbat-FULL.typ /tmp/out.pdf"
+echo "ready. compile (from repo root): /tmp/typst-bin/typst compile --font-path build/fonts build/typst/shirei-shabbat-FULL.typ out.pdf"

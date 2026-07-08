@@ -67,6 +67,13 @@ your fork's `liturgy-map/DECISIONS-LOG.md`.
    Keep all six mothers, just the four, or the traditional patriarchs-only text?
 5. **M'chayeih hakol vs. m'chayeih meitim.** This book prints *both, side by side*
    in G'vurot. Keep the both-text, or choose one?
+
+   > **Rulings 4–5 recur in the Me'ein Sheva recap.** The ancestors line and the
+   > m'chayeih phrase appear again in `build/typst/content/amidah-meein-sheva.typ`
+   > (the Magen Avot recap), not only in `amidah-silent.typ`. Before calling either
+   > ruling done, `grep` the phrase across `build/typst/content/` (e.g. `Bilhá`,
+   > `meitím`) and change every occurrence — otherwise the book contradicts itself
+   > (e.g. four matriarchs in the Amidah, six in Me'ein Sheva).
 6. **The service order — walk it.** Read the four section lists (in the `UNITS`
    registry in `book.typ`) aloud with them, unit by unit: which units to keep, cut,
    or add? Common decision points: all six welcoming psalms or fewer? All nine verses
@@ -106,6 +113,8 @@ After the interview, produce a compiling first draft in one pass:
    e.g. the divine-name rendering in two or three flagship units, the
    m'chayeih choice, the ancestors line, one keep/cut decision, and the Mi
    Shebeirach resolution. Surgical edits; leave the rest for the roadmap.
+   (For the m'chayeih and ancestors choices, `grep` `build/typst/content/` first —
+   both recur in `amidah-meein-sheva.typ`; change every occurrence.)
 3. **Rebuild** — `bash build/check.sh` until green; note the page count.
 4. **Deliver** the PDF (or point at the Action artifact) **plus the roadmap below**,
    and log every ruling in `liturgy-map/DECISIONS-LOG.md`.
@@ -113,8 +122,9 @@ After the interview, produce a compiling first draft in one pass:
 ## Roadmap template (propose this, adapted to their answers)
 
 - **Phase 1 — Identity.** Title page, book name, footer wordmark, welcome page
-  rewritten in their community's voice; license/credits page updated (keep the
-  attribution line per `LICENSE.md`).
+  rewritten in their community's voice. Keep the CC BY-NC-SA attribution line
+  (per `LICENSE.md`): there is no separate credits page, so place it in the
+  title-page footer in `frontmatter.typ` (or add a short colophon there).
 - **Phase 2 — Liturgical choices.** Execute the service-order rulings: cut/add/reorder
   units (keep `UNITS`, the opener item lists, and the includes in sync — see
   `FORK-YOUR-OWN.md`); ancestors, m'chayeih, Mi Shebeirach, seasonal set.

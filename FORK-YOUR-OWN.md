@@ -37,7 +37,7 @@ the `UNITS` registry in `book.typ` (§3).
 | `maariv-after.typ` | Emet v'Emunah (with `#submark("Mi Chamocha")`) · Hashkivenu · V'shamru · Chatzi Kaddish |
 | `amidah-silent.typ` | The silent Amidah, seven blessings: We Open Our Lips (Adonai S'fatai) · Avot v'Imahot · G'vurot · K'dushat HaShem · K'dushat HaYom · Avodah · Modim · Shalom Rav · Elohai N'tzor |
 | `amidah-vayechulu.typ` | Vayechulu |
-| `amidah-meein-sheva.typ` | Me'ein Sheva |
+| `amidah-meein-sheva.typ` | Me'ein Sheva **(Magen Avot recap — repeats the ancestors line and the m'chayeih phrase from `amidah-silent.typ`; apply those rulings here too)** |
 | `concluding-body.typ` | Mi Shebeirach (via the placeholder mechanism, §6) · Aleinu · Mourner's Kaddish · Birkat Kohanim (Priestly Blessing) · Adon Olam |
 | `seasonal-insertions.typ` | Back matter: Ya'aleh V'yavo · Al HaNisim (Chanukah + Purim) · Ten Days insertions (Zochreinu etc.) · Counting the Omer · Festival Kiddush |
 | `kiddush.typ` | Kiddush for Shabbat evening (back matter) |

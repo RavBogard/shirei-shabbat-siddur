@@ -13,7 +13,7 @@ bash build/check.sh    # NUL scan + git status + clean full-book compile with pa
 /tmp/typst-bin/typst compile --font-path build/fonts build/typst/shirei-shabbat-FULL.typ out.pdf
 ```
 
-Editing rules of thumb (each earned the hard way — see StartHere.md gotchas):
+Editing rules of thumb (each earned the hard way — see also FORK-YOUR-OWN.md §7):
 1. **Small surgical Edits over whole-file rewrites.** With git, review by `git diff`, not by re-reading files.
 2. **Commit after every verified wave** (compile clean → commit). Corruption from the
    Windows↔Linux mount lag now shows up instantly in `git status`/`git diff` instead of a
