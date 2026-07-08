@@ -33,7 +33,7 @@
   "יִתְגַּדַּל וְיִתְקַדַּשׁ שְׁמֵהּ רַבָּא. (אָמֵן.) בְּעָלְמָא דִּי־בְרָא כִרְעוּתֵהּ וְיַמְלִיךְ מַלְכוּתֵהּ בְּחַיֵּיכוֹן וּבְיוֹמֵיכוֹן וּבְחַיֵּי דְכָל־בֵּית יִשְׂרָאֵל בַּעֲגָלָא וּבִזְמַן קָרִיב וְאִמְרוּ אָמֵן.")
 #stanza("Y’hé sh’méh rabá m’varách l’alám ulalméi almayá.",
   "יְהֵא שְׁמֵהּ רַבָּא מְבָרַךְ לְעָלַם וּלְעָלְמֵי עָלְמַיָּא.", label: "All")
-#seasonmark[Ten Days: "l’eila l’eila" — see p. 53]
+#seasonmark[Ten Days: "l’eila ul’eila" — see p. 53]
 #stanza("Yitbarách v’yishtabách v’yitpa’ár v’yitromám v’yitnasé v’yit’hadár v’yit’alé v’yit’halál sh’méh d’kudshá b’rich hu, l’éla min kol birchatá v’shiratá, tushb’chatá v’nechemátá da’amirán b’almá, v’imrú: Amén.",
   "יִתְבָּרַךְ וְיִשְׁתַּבַּח וְיִתְפָּאַר וְיִתְרוֹמַם וְיִתְנַשֵּׂא וְיִתְהַדָּר וְיִתְעַלֶּה וְיִתְהַלָּל שְׁמֵהּ דְקוּדְשָׁא בְּרִיךְ הוּא, לְעֵלָּא מִן־כָּל בִּרְכָתָא וְשִׁירָתָא תֻּשְׁבְּחָתָא וְנֶחָמָתָא דַּאֲמִירָן בְּעָלְמָא, וְאִמְרוּ אָמֵן.")
 #stanza("Y’hé sh’lamá rabá min sh’mayá, v’chayím aléinu v’al kol Yisra’él, v’imrú: Amén.",
@@ -73,4 +73,4 @@
 #eng("Eternal One, who reigned before any form was created; when all was made by Your will, then were You called Sovereign. And after all has ceased to be, You alone will reign in awe. You were, You are, You will be in glory.")
 #eng("You are One; there is no second to compare or set beside You. Without beginning, without end — Yours are the strength and the majesty. You are my God, my living Redeemer, my Rock in time of trouble; my banner, my refuge, the portion of my cup on the day I call.")
 #engn("Into Your hand I entrust my spirit, when I sleep and when I wake; and with my spirit, my body too — the Eternal is with me, I will not fear.",
-  [A hymn of pure trust, sung to countless melodies. Its closing lines — "into Your hand I entrust my spirit… I will not fear" — are the words said at bedtime and at the very end of life; ending the service with them lets each Shabbat close as a gentle rehearsal of letting go and being held.])
+  [A hymn of pure trust, sung to countless melodies. Often credited to Solomon ibn Gabirol of eleventh-century Spain, its author is finally unknown. Its closing lines — "into Your hand I entrust my spirit… I will not fear" — are the words said at bedtime and at the very end of life; ending the service with them lets each Shabbat close as a gentle rehearsal of letting go and being held.])

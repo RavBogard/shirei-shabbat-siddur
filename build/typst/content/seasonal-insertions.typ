@@ -58,7 +58,7 @@
 // Sources: Siddur Ashkenaz, Shabbat Maariv Amidah — Patriarchs 3, Divine Might 4,
 //   Thanksgiving 6, Peace 2 (Metsudah, 1981)
 // ============================================================
-#rubric([From Rosh Hashanah through Yom Kippur, four short lines are added to the Amidah, and two of its seals change. Insert each line where noted.])
+#rubric([From Rosh Hashanah through Yom Kippur, four short lines are added to the Amidah, and one of its seals changes (a second changes only in the weekday Amidah). Insert each line where noted.])
 #startprayer("Remember Us for Life", "זָכְרֵנוּ לְחַיִּים", sec: "Seasonal & Kiddush")
 
 #rubric([Into the first blessing (Avot v’Imahot), after "…for the sake of Your name in love":])
@@ -76,7 +76,7 @@
   "וּכְתוֹב לְחַיִּים טוֹבִים כָּל בְּנֵי בְרִיתֶךָ.")
 #eng("And write down for a good life all the children of Your covenant.")
 
-#rubric([Into the final blessing (Shalom), in place of its usual opening:])
+#rubric([Into the final blessing (Shalom), just before its closing seal:])
 #stanza("B’séfer chayím b’rachá v’shalóm ufarnasá tová, nizachér v’nikatév l’fanécha, anáchnu v’chol am’chá beit Yisra’él, l’chayím tovím ulshalóm.",
   "בְּסֵפֶר חַיִּים בְּרָכָה וְשָׁלוֹם וּפַרְנָסָה טוֹבָה, נִזָּכֵר וְנִכָּתֵב לְפָנֶיךָ, אֲנַחְנוּ וְכָל עַמְּךָ בֵּית יִשְׂרָאֵל, לְחַיִּים טוֹבִים וּלְשָׁלוֹם.")
 #eng("In the Book of Life, blessing, and peace, and of good sustenance, may we be remembered and inscribed before You — we and all Your people the house of Israel — for a good life and for peace.")
@@ -86,9 +86,9 @@
   "בָּרוּךְ אַתָּה יְיָ, הַמֶּלֶךְ הַקָּדוֹשׁ.", label: "the Holy Sovereign")
 #rubric([And where the weekday Amidah would seal the blessing for justice, it reads #emph[haMélech hamishpát] ("the Sovereign of justice") — הַמֶּלֶךְ הַמִּשְׁפָּט.#footnote([These are the days between Rosh Hashanah and Yom Kippur, when tradition pictures the Book of Life lying open. Every insertion asks the same thing in a different key — to be remembered, inscribed, sealed for life — and the seasonal seal #emph[haMelech hakadosh] replaces "the holy God" with "the holy Sovereign," the one image of majesty the High Holy Days keep even where the rest of this siddur sets it aside.])])
 
-#rubric([One more change during these days: in every Kaddish, the phrase #emph[l’eila min kol birchata] — "beyond all blessing" — is doubled to #emph[l’eila l’eila]:])
-#stanza("…l’eila l’eila mikol birchatá v’shiratá, tushb’chatá v’nechematá da’amirán b’almá…",
-  "…לְעֵלָּא לְעֵלָּא מִכָּל בִּרְכָתָא וְשִׁירָתָא, תֻּשְׁבְּחָתָא וְנֶחָמָתָא דַּאֲמִירָן בְּעָלְמָא…", label:"in every Kaddish")
+#rubric([One more change during these days: in every Kaddish, the phrase #emph[l’eila min kol birchata] — "beyond all blessing" — is doubled to #emph[l’eila ul’eila]:])
+#stanza("…l’eila ul’eila mikól birchatá v’shiratá, tushb’chatá v’nechematá da’amirán b’almá…",
+  "…לְעֵלָּא וּלְעֵלָּא מִכָּל בִּרְכָתָא וְשִׁירָתָא, תֻּשְׁבְּחָתָא וְנֶחָמָתָא דַּאֲמִירָן בְּעָלְמָא…", label:"in every Kaddish")
 #engn("…far, far beyond any blessing or song, any praise or consolation we can speak…",
   [This Kaddish change belongs to the Ten Days of Repentance only — Rosh Hashanah through Yom Kippur — not to the whole month of Elul. The doubled "l’eila l’eila" lifts the praise one degree higher for the days when the Book of Life lies open.])
 

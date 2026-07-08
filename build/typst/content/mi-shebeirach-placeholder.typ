@@ -11,9 +11,9 @@
 // rights holders and put it in your own local file, or make this text your own.
 #startprayer("Mi Shebeirach · A Prayer for Healing", "מִי שֶׁבֵּרַךְ", sec: "Concluding", newpage: true)
 #rubric([We name, aloud or in our hearts, those in need of healing.])
-#stanza("Mi shebeirách avotéinu v'imotéinu, Avrahám v'Sará, Yitzchák v'Rivká, Ya'akóv, Rachél v'Le'á, hu y'varéch virapé et kol hacholím.",
-  "מִי שֶׁבֵּרַךְ אֲבוֹתֵינוּ וְאִמּוֹתֵינוּ, אַבְרָהָם וְשָׂרָה, יִצְחָק וְרִבְקָה, יַעֲקֹב, רָחֵל וְלֵאָה, הוּא יְבָרֵךְ וִירַפֵּא אֶת כָּל הַחוֹלִים.")
+#stanza("Mi shebeirách avotéinu v'imotéinu, Avrahám v'Sará, Yitzchák v'Rivká, Ya'akóv, Rachél v'Le'á, Bilhá v'Zilpá, hu y'varéch virapé et kol hacholím.",
+  "מִי שֶׁבֵּרַךְ אֲבוֹתֵינוּ וְאִמּוֹתֵינוּ, אַבְרָהָם וְשָׂרָה, יִצְחָק וְרִבְקָה, יַעֲקֹב, רָחֵל וְלֵאָה, בִּלְהָה וְזִלְפָּה, הוּא יְבָרֵךְ וִירַפֵּא אֶת כָּל הַחוֹלִים.")
 #stanza("V'yishlách lahém bimheirá r'fuá sh'leimá, r'fuát hanéfesh ur'fuát hagúf, v'nomár: Amén.",
   "וְיִשְׁלַח לָהֶם בִּמְהֵרָה רְפוּאָה שְׁלֵמָה, רְפוּאַת הַנֶּפֶשׁ וּרְפוּאַת הַגּוּף, וְנֹאמַר: אָמֵן.")
-#engn("May the One who blessed our fathers and our mothers — Abraham and Sarah, Isaac and Rebecca, Jacob, Rachel and Leah — bless and heal all who are in need of healing. Send them, soon and gently, r'fuah sh'leimah, a complete healing — healing of the spirit and healing of the body — and let us say together: Amen.",
-  [Many communities sing this moment to the beloved Mi Shebeirach of Debbie Friedman and Drorah Setel (1988), which is under copyright and not printed here; communities should license that setting from its rights holders, or set their own words in its place. What stands here is the classical formula — a blessing once spoken over individuals at the Torah, turned toward the whole community's care for its own.])
+#engn("May the One who blessed our fathers and our mothers — Abraham and Sarah, Isaac and Rebecca, Jacob, Rachel and Leah, Bilhah and Zilpah — bless and heal all who are in need of healing. Send them, soon and gently, r'fuah sh'leimah, a complete healing — healing of the spirit and healing of the body — and let us say together: Amen.",
+  [Many communities sing this moment to the beloved Mi Shebeirach of Debbie Friedman and Drorah Setel (written 1987; © 1988), which is under copyright and not printed here; communities should license that setting from its rights holders, or set their own words in its place. What stands here is the classical formula — a blessing once spoken over individuals at the Torah, turned toward the whole community's care for its own.])

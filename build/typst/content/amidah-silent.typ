@@ -29,7 +29,7 @@
 #eng("Blessed are You, our God and God of our fathers and mothers — God of Abraham, God of Isaac, and God of Jacob; God of Sarah, God of Rebecca, God of Leah, God of Rachel, God of Bilhah, and God of Zilpah.")
 #eng("Great, mighty, and awesome God, God most high, who acts with lovingkindness, who creates all, who remembers the faithfulness of our fathers and mothers, and who lovingly brings redemption to their children’s children for the sake of Your name.")
 #engn("You are our help, our rescue, our shield. Blessed are You, the One, shield of Abraham and help of Sarah.",
-  [The oldest layer of this blessing names only the patriarchs; egalitarian siddurim restore the four matriarchs, and here we go further, reclaiming Bilhah and Zilpah — the enslaved women (Genesis 30) whose children became four of the twelve tribes but whom the tradition long left unnamed. To speak their names is to insist that the covenant runs through them too.])
+  [The oldest layer of this blessing names only the patriarchs; egalitarian siddurim add the four matriarchs, and here we go further, reclaiming Bilhah and Zilpah — the enslaved women (Genesis 30) whose children became four of the twelve tribes but whom the tradition long left unnamed. To speak their names is to insist that the covenant runs through them too.])
 
 // ===================== 2 · G’VUROT =====================
 #startprayer("G’vurot", "גְּבוּרוֹת", sec: "Amidah")

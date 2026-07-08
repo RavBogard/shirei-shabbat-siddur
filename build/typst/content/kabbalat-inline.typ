@@ -26,7 +26,7 @@
 #engn("Blessed are You, HaShem our God, Presence of the universe, who makes us holy with mitzvot and calls us to kindle the light of Shabbat.",
   [Kindling these lights is a mitzvah the Sages gave us, not one the Torah commands: the Talmud
   names its purpose as #emph[shalom bayit], peace in the home, since no household rests easy in the dark.
-  The blessing first appears in the ninth-century prayerbook of Rav Amram Gaon.])
+  The blessing itself is younger — first attested in the prayerbooks of the Geonim, a millennium after the Torah.])
 
 // ===================== SHALOM ALEICHEM =====================
 #startprayer("Shalom Aleichem", "שָׁלוֹם עֲלֵיכֶם", newpage: true)
@@ -41,7 +41,7 @@
 #rubric([Each verse is sung three times.])
 #v(9pt)
 #stanza("Shalóm aléichem malachéi hashalóm · Bo’achém l’shalóm malachéi hashalóm · Barchúni l’shalóm malachéi hashalóm · Tzet’chém l’shalóm malachéi hashalóm.",
-  "שָׁלוֹם עֲלֵיכֶם מַלְאֲכֵי הַשָּׁלוֹם · בּוֹאֲכֶם לְשָׁלוֹם מַלְאֲכֵי הַשָּׁלוֹם · בָּרְכוּנִי לְשָׁלוֹם מַלְאֲכֵי הַשָּׁלוֹם · צֵאתְכֶם לְשָׁלוֹם מַלְאֲכֵי הַשָּׁלוֹם.")
+  "שָׁלוֹם עֲלֵיכֶם מַלְאֲכֵי הַשָּׁלוֹם · בּוֹאֲכֶם לְשָׁלוֹם מַלְאֲכֵי הַשָּׁלוֹם · בָּרְכוּנִי לְשָׁלוֹם מַלְאֲכֵי הַשָּׁלוֹם · צֵאתְכֶם לְשָׁלוֹם מַלְאֲכֵי הַשָּׁלוֹם.", label:"As we sing it")
 #eng("Peace be upon you, angels of peace, angels of the Most High.")
 #eng("Come in peace, bless me with peace, and take your leave in peace.")
 #engn("You charge Your angels to guard us on all our ways.",

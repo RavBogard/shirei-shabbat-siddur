@@ -37,9 +37,10 @@
   [This blessing links the Sh’ma to memory: having declared God’s oneness, we recall the Exodus as proof that oneness acts in history. Mi Chamocha is the song Moses and Miriam sang at the sea (Exodus 15:11, 18) — the liturgy places the redemption song here so that every evening ends by rehearsing the move from slavery to freedom.])
 
 // ===================== HASHKIVENU =====================
+// Adapted: the v'haser-satan clause is not printed; malkeinu → shomreinu (Daniel, 2026-07-08). Logged in DECISIONS-LOG.
 #startprayer("Hashkivenu · Lay Us Down in Peace", "הַשְׁכִּיבֵנוּ", sec: "Sh’ma & Its Blessings", newpage: true)
-#stanza("Hashkivéinu Adonai Elohéinu l’shalóm, v’ha’amidéinu malkéinu l’chayím, ufrós aléinu sukát sh’lomécha, v’taknéinu b’etzá tová milfanécha, v’hoshi’éinu l’má’an sh’mécha.",
-  "הַשְׁכִּיבֵנוּ יְיָ אֱלֹהֵינוּ לְשָׁלוֹם וְהַעֲמִידֵנוּ מַלְכֵּנוּ לְחַיִּים וּפְרוֹשׂ עָלֵינוּ סֻכַּת שְׁלוֹמֶךָ וְתַקְּנֵנוּ בְּעֵצָה טוֹבָה מִלְּפָנֶיךָ וְהוֹשִׁיעֵנוּ לְמַעַן שְׁמֶךָ.")
+#stanza("Hashkivéinu Adonai Elohéinu l’shalóm, v’ha’amidéinu shomréinu l’chayím, ufrós aléinu sukát sh’lomécha, v’taknéinu b’etzá tová milfanécha, v’hoshi’éinu l’má’an sh’mécha.",
+  "הַשְׁכִּיבֵנוּ יְיָ אֱלֹהֵינוּ לְשָׁלוֹם וְהַעֲמִידֵנוּ שׁוֹמְרֵנוּ לְחַיִּים וּפְרוֹשׂ עָלֵינוּ סֻכַּת שְׁלוֹמֶךָ וְתַקְּנֵנוּ בְּעֵצָה טוֹבָה מִלְּפָנֶיךָ וְהוֹשִׁיעֵנוּ לְמַעַן שְׁמֶךָ.")
 #stanza("V’hagén ba’adéinu, v’hasér me’aléinu oyév, déver v’chérev, v’ra’áv v’yagón, uvtzél k’nafécha tastiréinu, ki El shomréinu umatziléinu áta, ki El mélech chanún v’rachúm áta.",
   "וְהָגֵן בַּעֲדֵנוּ וְהָסֵר מֵעָלֵינוּ אוֹיֵב דֶּבֶר וְחֶרֶב וְרָעָב וְיָגוֹן וּבְצֵל כְּנָפֶיךָ תַּסְתִּירֵנוּ כִּי אֵל שׁוֹמְרֵנוּ וּמַצִּילֵנוּ אָתָּה כִּי אֵל מֶלֶךְ חַנּוּן וְרַחוּם אָתָּה.")
 #chatimah("Ushmór tzeteinu uvo’éinu l’chayím ulshalóm me’atá v’ad olám. Ufrós aléinu sukát sh’lomécha. Barúch atá Adonai, haporés sukát shalóm aléinu v’al kol amó Yisra’él v’al Yerushaláyim.",
@@ -57,7 +58,7 @@
   "בֵּינִ֗י וּבֵין֙ בְּנֵ֣י יִשְׂרָאֵ֔ל א֥וֹת הִ֖וא לְעֹלָ֑ם כִּי־שֵׁ֣שֶׁת יָמִ֗ים עָשָׂ֤ה יְיָ אֶת־הַשָּׁמַ֣יִם וְאֶת־הָאָ֔רֶץ וּבַיּוֹם֙ הַשְּׁבִיעִ֔י שָׁבַ֖ת וַיִּנָּפַֽשׁ׃")
 #eng("The people of Israel shall keep Shabbat, observing Shabbat in every generation as a covenant for all time.")
 #engn("It is a sign forever between Me and the people of Israel, for in six days the Source made heaven and earth, and on the seventh day rested and drew breath.",
-  [These verses from Exodus 31:16–17 name Shabbat as an ot, a "sign" of covenant. The Torah’s own word for God’s rest — vayinafash — literally means "and was re-souled," suggesting that even the Creator recovered breath and soul on the seventh day, the model for our own weekly renewal.])
+  [These verses from Exodus 31:16–17 name Shabbat as an ot, a "sign" of covenant. In the Torah’s word for God’s rest — vayinafash, "caught breath, was refreshed" — the rabbis heard nefesh, soul: as if even the Creator were re-souled on the seventh day, the model for our own weekly renewal.])
 
 // ===================== CHATZI KADDISH =====================
 #startprayer("Chatzi Kaddish · The Half-Kaddish", "חֲצִי קַדִּישׁ", sec: "Sh’ma & Its Blessings", newpage: true)
@@ -65,7 +66,7 @@
   "יִתְגַּדַּל וְיִתְקַדַּשׁ שְׁמֵהּ רַבָּא. (אָמֵן.) בְּעָלְמָא דִּי־בְרָא כִרְעוּתֵהּ וְיַמְלִיךְ מַלְכוּתֵהּ בְּחַיֵּיכוֹן וּבְיוֹמֵיכוֹן וּבְחַיֵּי דְכָל־בֵּית יִשְׂרָאֵל בַּעֲגָלָא וּבִזְמַן קָרִיב וְאִמְרוּ אָמֵן.")
 #stanza("Y’hé sh’méh rabá m’varách l’alám ulalméi almayá.",
   "יְהֵא שְׁמֵהּ רַבָּא מְבָרַךְ לְעָלַם וּלְעָלְמֵי עָלְמַיָּא.", label: "All")
-#seasonmark[Ten Days: "l’eila l’eila" — see p. 53]
+#seasonmark[Ten Days: "l’eila ul’eila" — see p. 53]
 #stanza("Yitbarách v’yishtabách v’yitpa’ár v’yitromám v’yitnasé v’yit’hadár v’yit’alé v’yit’halál sh’méh d’kudshá b’rich hu, l’éla min kol birchatá v’shiratá, tushb’chatá v’nechemátá da’amirán b’almá, v’imrú: Amén.",
   "יִתְבָּרַךְ וְיִשְׁתַּבַּח וְיִתְפָּאַר וְיִתְרוֹמַם וְיִתְנַשֵּׂא וְיִתְהַדָּר וְיִתְעַלֶּה וְיִתְהַלָּל שְׁמֵהּ דְקוּדְשָׁא בְּרִיךְ הוּא לְעֵלָּא מִן־כָּל־בִּרְכָתָא וְשִׁירָתָא תֻּשְׁבְּחָתָא וְנֶחָמָתָא דַּאֲמִירָן בְּעָלְמָא וְאִמְרוּ אָמֵן.")
 #eng("May the great name be made great and holy in the world that was created by divine will. May its majesty be known in your lifetime and in your days and in the life of all the house of Israel, swiftly and soon — and say: Amen.")
