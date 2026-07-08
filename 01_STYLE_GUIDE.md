@@ -63,7 +63,7 @@ from the existing ones. When in doubt, reread the draft sections, then imitate.
 - **One apostrophe glyph in print — curly `'`**: string-argument apostrophes/quotes are normalized so rail, titles, translit, and prose all match the smart-quoted content blocks.
 - **Hebrew terms in English prose: italic** (`#emph[…]` / `_…_`), never `*…*` (which renders bold). Gloss pattern: *term*, "gloss."
 - **Citations: bare parenthetical** — "(Berakhot 17a)", "(Numbers 6:24–26)", en-dash ranges; prose may say "the Talmud teaches… (Berakhot 21b)" but never "(Talmud, Berakhot 12b)".
-- **Naming (R2):** the Amidah section opener is titled **T'filah** (תְּפִלָּה); the rail tab, unit list, and eyebrows keep **Amidah**; the opener blurb glosses the two-name scheme.
+- **Naming (Wave 4 · D1, 2026-07-08):** the Amidah section opener is titled **Amidah** (עֲמִידָה) everywhere — tab, rail, unit list, eyebrows, and opener all agree; the opener blurb glosses T'filah as the traditional alternate name.
 
 ## Content file format
 
