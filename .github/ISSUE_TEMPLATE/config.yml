@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions & discussion
+    url: https://github.com/RavBogard/shirei-shabbat-siddur/discussions
+    about: "Ask a question, share how your community adapted the book, or discuss liturgical choices."
+  - name: How to fork and make your own siddur
+    url: https://github.com/RavBogard/shirei-shabbat-siddur/blob/main/CLAUDE.md
+    about: "Read CLAUDE.md and FORK-YOUR-OWN.md — the interview-first customization guide."

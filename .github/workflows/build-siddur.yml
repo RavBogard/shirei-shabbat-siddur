@@ -1,15 +1,32 @@
-# Build the siddur PDF on every push that could change it.
-# Zero network installs by design: the Typst binary is vendored in
-# build/tools/ (setup.sh unpacks it to /tmp/typst-bin with tar/xz, both
-# preinstalled on ubuntu-latest) and every font is vendored in build/fonts/.
+# Build the siddur PDF and publish it.
+#
+# Zero-network BUILD by design: the Typst binary is vendored in build/tools/
+# (setup.sh unpacks it with tar/xz, both preinstalled on ubuntu-latest) and
+# every font is vendored in build/fonts/. The runner has normal network, used
+# only by the publish steps (Pages, Releases) — never by the compile itself.
+#
+# Triggers:
+#   • push to main            → build + integrity gate, then publish the current
+#                               PDF to GitHub Pages (always-current book link).
+#   • pull request (build/**) → build + gate as a preview check; the PDF is
+#                               downloadable from the run's Artifacts.
+#   • push a tag like v1.0    → build, then create a GitHub Release with the
+#                               PDF attached as Shirei-Shabbat-v1.0.pdf.
+#   • workflow_dispatch       → build on demand.
 name: Build siddur
 
 on:
   push:
+    branches: ["main"]
+    tags: ["v*"]
+  pull_request:
     paths:
       - "build/**"
       - ".github/workflows/build-siddur.yml"
   workflow_dispatch:
+
+permissions:
+  contents: read
 
 concurrency:
   group: build-siddur-${{ github.ref }}
@@ -45,3 +62,87 @@ jobs:
           name: shirei-shabbat-${{ env.SHORT_SHA }}
           path: shirei-shabbat.pdf
           if-no-files-found: error
+
+  # Publish the current PDF to GitHub Pages on every push to the default branch.
+  pages:
+    needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+      - name: Set up vendored Typst toolchain
+        run: bash build/setup.sh
+      - name: Compile the book into the site
+        run: |
+          mkdir -p _site
+          /tmp/typst-bin/typst compile --font-path build/fonts \
+            build/typst/shirei-shabbat-FULL.typ _site/shirei-shabbat.pdf
+      - name: Write the landing page
+        run: |
+          cat > _site/index.html <<'HTML'
+          <!doctype html><html lang="en"><head><meta charset="utf-8">
+          <meta name="viewport" content="width=device-width,initial-scale=1">
+          <title>Shirei Shabbat</title>
+          <style>
+            :root{color-scheme:light}
+            body{margin:0;font:16px/1.5 Georgia,'Times New Roman',serif;color:#2b2b33;background:#fbfaf7}
+            header{padding:2rem 1.25rem 1rem;text-align:center}
+            h1{margin:.2rem 0;font-size:1.9rem}
+            .he{font-size:1.6rem;color:#8a6d1f}
+            p{max-width:44rem;margin:.6rem auto;text-align:center;color:#4a4a52}
+            a.btn{display:inline-block;margin:.4rem;padding:.6rem 1.1rem;border:1px solid #8a6d1f;border-radius:8px;color:#8a6d1f;text-decoration:none}
+            iframe{display:block;width:100%;height:80vh;border:0;border-top:1px solid #e6e1d5;margin-top:1rem}
+          </style></head>
+          <body>
+          <header>
+            <div class="he">שִׁירֵי שַׁבָּת</div>
+            <h1>Shirei Shabbat</h1>
+            <p>A complete, sung Friday-night siddur — Kabbalat Shabbat &amp; Ma'ariv — from Central Reform Congregation, St. Louis. This page always shows the latest build.</p>
+            <p>
+              <a class="btn" href="shirei-shabbat.pdf">Download the PDF</a>
+              <a class="btn" href="https://github.com/RavBogard/shirei-shabbat-siddur">Source &amp; how to fork</a>
+            </p>
+          </header>
+          <iframe src="shirei-shabbat.pdf" title="Shirei Shabbat (PDF)"></iframe>
+          </body></html>
+          HTML
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
+
+  # Attach the PDF to a GitHub Release when a version tag (v*) is pushed.
+  release:
+    needs: build
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+      - name: Set up vendored Typst toolchain
+        run: bash build/setup.sh
+      - name: Build the release PDF
+        run: |
+          /tmp/typst-bin/typst compile --font-path build/fonts \
+            build/typst/shirei-shabbat-FULL.typ "Shirei-Shabbat-${GITHUB_REF_NAME}.pdf"
+      - name: Create the release and attach the PDF
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${GITHUB_REF_NAME}" \
+            "Shirei-Shabbat-${GITHUB_REF_NAME}.pdf" \
+            --repo "${GITHUB_REPOSITORY}" \
+            --title "Shirei Shabbat ${GITHUB_REF_NAME}" \
+            --notes "Compiled siddur PDF for ${GITHUB_REF_NAME}, built from the vendored zero-network Typst toolchain in this repo. The healing prayer prints the public classical-formula placeholder (see FORK-YOUR-OWN.md §6)."

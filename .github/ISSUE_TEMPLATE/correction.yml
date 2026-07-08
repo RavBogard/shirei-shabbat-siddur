@@ -1,0 +1,58 @@
+name: "Report a correction"
+description: "Flag a typo, a Hebrew/nikud error, a translation or transliteration issue, or a layout problem in the book."
+title: "[correction] "
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping make the book more accurate. For open-ended questions
+        or discussion (rather than a specific fix), please use
+        [Discussions](https://github.com/RavBogard/shirei-shabbat-siddur/discussions)
+        instead. Hebrew is sacred text — the more precisely you can point to the
+        problem, the faster it can be verified against Sefaria and fixed.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of correction is this?
+      options:
+        - "Hebrew text / nikud (vowel points)"
+        - "Transliteration"
+        - "English translation"
+        - "Layout / pagination / a broken page turn"
+        - "Footnote / teaching note"
+        - "Rail caption, ritual mark, or other margin element"
+        - "Typo / punctuation"
+        - "Other"
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Where is it?
+      description: "Prayer/unit name and, if you can, the printed folio or PDF page number."
+      placeholder: "e.g. L'cha Dodi, PDF p. 19 (folio 14)"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: "Quote the current text exactly if you can."
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested fix (optional)
+      description: "What should it say instead? For Hebrew, a Sefaria link or standard-siddur citation is ideal."
+    validations:
+      required: false
+  - type: input
+    id: edition
+    attributes:
+      label: Which build?
+      description: "Release tag (e.g. v1.0), commit SHA, or the date you downloaded the PDF."
+      placeholder: "v1.0  /  commit abc1234  /  downloaded 2026-07-08"
+    validations:
+      required: false
