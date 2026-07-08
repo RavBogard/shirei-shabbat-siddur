@@ -65,6 +65,7 @@ Two approved reference captions (margin lab): *"Six psalms — one for each day 
 | Elohai N'tzor **«revised»** | *It begins by asking to guard the tongue, then opens a silence — room to pour in whatever we could not say aloud.* | "The Amidah closes not with a fixed blessing but with a private meditation…" |
 | Vayechulu **«revised»** | *After the long hush of the silent prayer, sound comes back into the room — the very words Genesis uses for the first evening finished.* | "Vayechulu is the Torah's own account of the first Shabbat (Genesis 2)." |
 | Me'ein Sheva | *Friday night's own communal blessing, sung aloud — a kindness born to let latecomers finish and walk home safe.* | "Me'ein Sheva — 'an echo of the seven' — folds the whole Shabbat Amidah into one blessing…" |
+| Kaddish Shalem | *The full Kaddish seals the Amidah — asking, beyond every praise, that the prayers just offered be received.* | "Kaddish comes in sizes. The Half-Kaddish marks a seam; this, the Full Kaddish, seals a whole service of prayer…" |
 
 ---
 
