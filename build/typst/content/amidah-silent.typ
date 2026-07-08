@@ -88,9 +88,11 @@
 #stanza("Hatóv ki lo chalú rachamécha, v’hamrachém ki lo támu chasadécha, me’olám kivínu lach.",
   "הַטּוֹב כִּי לֹא כָלוּ רַחֲמֶיךָ, וְהַמְרַחֵם כִּי לֹא תַמּוּ חֲסָדֶיךָ, מֵעוֹלָם קִוִּינוּ לָךְ.")
 #seasonmark[Ten Days: Uch’tóv l’chayím — see p. 52]
-#ritual([some bow once more, in thanks])
-#stanza("V’al kulám yitbaréch v’yitromám shimchá tamíd l’olám va’éd. V’chol hachayím yodúcha sélah, vihal’lú et shimchá be’emét, ha’El y’shu’aténu v’ezraténu sélah. Barúch atá Adonai, hatóv shimchá ulchá na’éh l’hodót.",
-  "וְעַל כֻּלָּם יִתְבָּרַךְ וְיִתְרוֹמַם שִׁמְךָ תָּמִיד לְעוֹלָם וָעֶד. וְכֹל הַחַיִּים יוֹדוּךָ סֶלָה, וִיהַלְלוּ אֶת שִׁמְךָ בֶּאֱמֶת, הָאֵל יְשׁוּעָתֵנוּ וְעֶזְרָתֵנוּ סֶלָה. בָּרוּךְ אַתָּה יְיָ, הַטּוֹב שִׁמְךָ וּלְךָ נָאֶה לְהוֹדוֹת.")
+#block(breakable:false)[
+  #ritual([some bow once more, in thanks])
+  #stanza("V’al kulám yitbaréch v’yitromám shimchá tamíd l’olám va’éd. V’chol hachayím yodúcha sélah, vihal’lú et shimchá be’emét, ha’El y’shu’aténu v’ezraténu sélah. Barúch atá Adonai, hatóv shimchá ulchá na’éh l’hodót.",
+    "וְעַל כֻּלָּם יִתְבָּרַךְ וְיִתְרוֹמַם שִׁמְךָ תָּמִיד לְעוֹלָם וָעֶד. וְכֹל הַחַיִּים יוֹדוּךָ סֶלָה, וִיהַלְלוּ אֶת שִׁמְךָ בֶּאֱמֶת, הָאֵל יְשׁוּעָתֵנוּ וְעֶזְרָתֵנוּ סֶלָה. בָּרוּךְ אַתָּה יְיָ, הַטּוֹב שִׁמְךָ וּלְךָ נָאֶה לְהוֹדוֹת.")
+]
 #eng("We thank You, for You are the One, our God and the God of our fathers and mothers, forever. Rock of our life, shield of our rescue — so You are, in every generation. We give thanks and tell Your praise: for our lives, held in Your hand; for our souls, entrusted to You; for Your miracles that are with us every day; and for Your wonders and Your gifts at every moment — evening, morning, and noon.")
 #eng("You are the Good, whose mercies never end; the Compassionate, whose kindnesses never fail — always we have placed our hope in You.")
 #engn("For all these things may Your name be blessed and raised up, always and forever. Let all that lives give thanks to You, and praise Your name in truth, God of our rescue and our help. Blessed are You, whose name is Goodness, and to whom thanks are due.",

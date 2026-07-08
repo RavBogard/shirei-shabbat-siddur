@@ -1,5 +1,5 @@
 #import "../book.typ": *
-#startprayer("Psalm 92 · Mizmor Shir l’Yom haShabbat", "מִזְמוֹר שִׁיר לְיוֹם הַשַּׁבָּת")
+#startprayer("Psalm 92 · Mizmor Shir", "מִזְמוֹר שִׁיר לְיוֹם הַשַּׁבָּת")
 #stanza("Mizmór shir l’yom haShabbat.",
   "מִזְמוֹר שִׁיר לְיוֹם הַשַּׁבָּת.", label:"Sung")
 #stanza("Tov l’hodót la’Adonai, ulzamér l’shimchá elyón. L’hagíd babóker chasdécha, ve’emunatchá baleilót. Alei-asór va’alei-nável, alei higayón b’chinór.",

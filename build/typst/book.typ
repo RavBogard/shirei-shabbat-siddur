@@ -374,7 +374,7 @@
       set text(size:8pt, fill:MUT, font:"Libertinus Serif")
       grid(columns:(1fr,auto,1fr),
         align(left)[#if shown and calc.odd(phys){[#n]}],
-        align(center)[#text(fill:FAINT, size:7.5pt, tracking:1pt)[SHIREI SHABBAT]],
+        align(center)[#if phys != 1 {text(fill:FAINT, size:7.5pt, tracking:1pt)[SHIREI SHABBAT]}],
         align(right)[#if shown and calc.even(phys){[#n]}])
     })
   set text(font:"Libertinus Serif", size:11pt, fill:INK, lang:"en")

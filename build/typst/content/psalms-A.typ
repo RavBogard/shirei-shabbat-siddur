@@ -36,7 +36,7 @@
   [Three times in two short breaths it commands us to sing — "sing a new song, sing all the earth, sing and bless the Name" — and its vision is startlingly wide: not Israel alone but all the earth — the fields, the trees, the roaring sea — summoned to rejoice before a God whose coming means not fear but justice, the setting-right of everything alive.])
 
 // ===================== PSALM 97 =====================
-#startprayer("Psalm 97 · Adonai Malach", "יְיָ מָלָךְ")
+#startprayer("Psalm 97 · Adonai Malach", "יְיָ מָלָךְ", newpage: true)
 #stanza("Adonai malách, tagel ha’áretz, yism’chú iyim rabim. Anan va’arafél s’vivav, tzédek umishpát m’chon kis’ó.",
   "יְיָ מָלָךְ תָּגֵל הָאָרֶץ, יִשְׂמְחוּ אִיִּים רַבִּים. עָנָן וַעֲרָפֶל סְבִיבָיו, צֶדֶק וּמִשְׁפָּט מְכוֹן כִּסְאוֹ.")
 #stanza("Esh l’fanáv teléch, ut’lahét saviv tzaráv. He’íru v’rakáv tevél, ra’atá vatachél ha’áretz. Harim kadonág namásu milifnei Adonai, milifnei adon kol ha’áretz. Higídu hashamáyim tzidkó, v’ra’u chol ha’amim k’vodó. Yevóshu kol ovdei fésel, hamit’hal’lím ba’elilím, hishtachavú lo kol elohím.",

@@ -43,8 +43,10 @@
   "הַשְׁכִּיבֵנוּ יְיָ אֱלֹהֵינוּ לְשָׁלוֹם וְהַעֲמִידֵנוּ שׁוֹמְרֵנוּ לְחַיִּים וּפְרוֹשׂ עָלֵינוּ סֻכַּת שְׁלוֹמֶךָ וְתַקְּנֵנוּ בְּעֵצָה טוֹבָה מִלְּפָנֶיךָ וְהוֹשִׁיעֵנוּ לְמַעַן שְׁמֶךָ.")
 #stanza("V’hagén ba’adéinu, v’hasér me’aléinu oyév, déver v’chérev, v’ra’áv v’yagón, uvtzél k’nafécha tastiréinu, ki El shomréinu umatziléinu áta, ki El mélech chanún v’rachúm áta.",
   "וְהָגֵן בַּעֲדֵנוּ וְהָסֵר מֵעָלֵינוּ אוֹיֵב דֶּבֶר וְחֶרֶב וְרָעָב וְיָגוֹן וּבְצֵל כְּנָפֶיךָ תַּסְתִּירֵנוּ כִּי אֵל שׁוֹמְרֵנוּ וּמַצִּילֵנוּ אָתָּה כִּי אֵל מֶלֶךְ חַנּוּן וְרַחוּם אָתָּה.")
-#chatimah("Ushmór tzeteinu uvo’éinu l’chayím ulshalóm me’atá v’ad olám. Ufrós aléinu sukát sh’lomécha. Barúch atá Adonai, haporés sukát shalóm aléinu v’al kol amó Yisra’él v’al Yerushaláyim.",
-  "וּשְׁמוֹר צֵאתֵנוּ וּבוֹאֵנוּ לְחַיִּים וּלְשָׁלוֹם מֵעַתָּה וְעַד עוֹלָם. וּפְרוֹשׂ עָלֵינוּ סֻכַּת שְׁלוֹמֶךָ. בָּרוּךְ אַתָּה יְיָ הַפּוֹרֵשׂ סֻכַּת שָׁלוֹם עָלֵינוּ וְעַל כָּל עַמּוֹ יִשְׂרָאֵל וְעַל יְרוּשָׁלָיִם.")
+#stanza("Ushmór tzeteinu uvo’éinu l’chayím ulshalóm me’atá v’ad olám. Ufrós aléinu sukát sh’lomécha.",
+  "וּשְׁמוֹר צֵאתֵנוּ וּבוֹאֵנוּ לְחַיִּים וּלְשָׁלוֹם מֵעַתָּה וְעַד עוֹלָם. וּפְרוֹשׂ עָלֵינוּ סֻכַּת שְׁלוֹמֶךָ.")
+#chatimah("Barúch atá Adonai, haporés sukát shalóm aléinu v’al kol amó Yisra’él v’al Yerushaláyim.",
+  "בָּרוּךְ אַתָּה יְיָ הַפּוֹרֵשׂ סֻכַּת שָׁלוֹם עָלֵינוּ וְעַל כָּל עַמּוֹ יִשְׂרָאֵל וְעַל יְרוּשָׁלָיִם.")
 #eng("Lay us down in peace, our God, and raise us up again to life. Spread over us Your shelter of peace, set us right with good counsel, and save us for the sake of Your name.")
 #eng("Shield us: turn away from us the enemy, plague and sword, famine and grief. Hide us in the shadow of Your wings, for You are the One who guards and rescues us, gracious and compassionate.")
 #engn("Watch over our going out and our coming in, for life and for peace, now and forever. Spread over us Your shelter of peace. Blessed are You, who spreads a shelter of peace over us, over all Your people Israel, and over Jerusalem.",

@@ -52,12 +52,14 @@
 
 // ================= 3 · AMIDAH =================
 // (2026-07-06) Renamed "The Standing Prayer"/עֲמִידָה → "T'filah"/תְּפִלָּה (Daniel).
+// (2026-07-08, Wave 4 · D1) Reverted to AMIDAH everywhere per Daniel's panel ruling —
+// the opener now joins the rest of the book (tab/rail/mini-TOCs/eyebrows already said Amidah).
 // (2026-07-07) Compact opener (R6 dedupe): "We Open Our Lips" (Adonai s'fatai,
 // the first unit of amidah-silent.typ) begins ON the opener page. Formerly an
 // inline copy; now sectionopener(..., compact: true) in book.typ — same
 // structure, copy, metrics, and state/rail behavior, render-verified identical.
-#sectionopener(2, "T'filah", "תְּפִלָּה",
-  [#emph[T'filah] means, simply, "prayer" — the prayer of prayers. Tradition also calls it the #emph[Amidah], "the standing," because we rise for it: the name you'll see on the rail's edge. We pray it silently, each at our own pace — seven
+#sectionopener(2, "Amidah", "עֲמִידָה",
+  [The #emph[Amidah] — "the standing" — is the prayer of prayers; tradition also calls it simply #emph[T'filah], "prayer." We pray it silently, each at our own pace — seven
    blessings for Shabbat — then rise together for Vayechulu and Me'ein Sheva, Friday night's own
    communal blessing that gathers the whole Amidah into one.],
   ("The Silent Amidah","Avot v'Imahot","G'vurot","K'dushat HaShem","K'dushat HaYom","Avodah","Modim","Shalom Rav","Elohai N'tzor","Vayechulu","Me'ein Sheva"),
