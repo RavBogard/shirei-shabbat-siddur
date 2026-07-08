@@ -4,7 +4,7 @@
 
 // ============================================================
 // 1 · YA’ALEH V’YAVO  (Rosh Chodesh & festivals)
-// Source: Siddur Ashkenaz, Shabbat, Maariv, Amidah, Temple Service (Metsudah, 1981)
+// Source: Siddur Ashkenaz, adapted — zichron mashiach ben David not printed (logged, DECISIONS-LOG 2026-07-08)
 // ============================================================
 #rubric([On Rosh Chodesh and the intermediate days of festivals, add in the Amidah:])
 #startprayer("Rise and Come", "יַעֲלֶה וְיָבֹא", sec: "Seasonal & Kiddush")
