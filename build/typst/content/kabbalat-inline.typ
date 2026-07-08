@@ -21,7 +21,7 @@
 #rubric([We kindle the lights, and then, covering our eyes, we bless.])
 #v(8pt)
 #ritual([some shield their eyes, then bless])
-#stanza("Barúch atá Adonai Elohéinu mélech ha’olám, asher kid’shánu b’mitzvotáv v’tzivánu l’hadlik ner shel Shabbat.",
+#stanza("Barúch atá Adonai Elohéinu mélech ha’olám, ashér kid’shánu b’mitzvotáv v’tzivánu l’hadlik ner shel Shabbat.",
   "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְצִוָּנוּ לְהַדְלִיק נֵר שֶׁל שַׁבָּת.")
 #engn("Blessed are You, HaShem our God, Presence of the universe, who makes us holy with mitzvot and calls us to kindle the light of Shabbat.",
   [Kindling these lights is a mitzvah the Sages gave us, not one the Torah commands: the Talmud
@@ -30,17 +30,17 @@
 
 // ===================== SHALOM ALEICHEM =====================
 #startprayer("Shalom Aleichem", "שָׁלוֹם עֲלֵיכֶם", newpage: true)
-#stanza("Shalóm aleichem, malachei hasharét, malachei elyón, mimélech malchei ham’lachím, haKadósh barúch hu.",
+#stanza("Shalóm aléichem, malachéi hasharét, malachéi elyón, mimélech malchei ham’lachím, haKadósh barúch hu.",
   "שָׁלוֹם עֲלֵיכֶם מַלְאֲכֵי הַשָּׁרֵת, מַלְאֲכֵי עֶלְיוֹן, מִמֶּלֶךְ מַלְכֵי הַמְּלָכִים הַקָּדוֹשׁ בָּרוּךְ הוּא.", label:"The traditional text")
-#stanza("Bo’achém l’shalóm, malachei hashalom, malachei elyón, mimélech malchei ham’lachím, haKadósh barúch hu.",
+#stanza("Bo’achém l’shalóm, malachéi hashalóm, malachéi elyón, mimélech malchei ham’lachím, haKadósh barúch hu.",
   "בּוֹאֲכֶם לְשָׁלוֹם מַלְאֲכֵי הַשָּׁלוֹם, מַלְאֲכֵי עֶלְיוֹן, מִמֶּלֶךְ מַלְכֵי הַמְּלָכִים הַקָּדוֹשׁ בָּרוּךְ הוּא.")
-#stanza("Barchúni l’shalóm, malachei hashalom, malachei elyón, mimélech malchei ham’lachím, haKadósh barúch hu.",
+#stanza("Barchúni l’shalóm, malachéi hashalóm, malachéi elyón, mimélech malchei ham’lachím, haKadósh barúch hu.",
   "בָּרְכוּנִי לְשָׁלוֹם מַלְאֲכֵי הַשָּׁלוֹם, מַלְאֲכֵי עֶלְיוֹן, מִמֶּלֶךְ מַלְכֵי הַמְּלָכִים הַקָּדוֹשׁ בָּרוּךְ הוּא.")
-#stanza("Tzet’chém l’shalóm, malachei hashalom, malachei elyón, mimélech malchei ham’lachím, haKadósh barúch hu.",
+#stanza("Tzet’chém l’shalóm, malachéi hashalóm, malachéi elyón, mimélech malchei ham’lachím, haKadósh barúch hu.",
   "צֵאתְכֶם לְשָׁלוֹם מַלְאֲכֵי הַשָּׁלוֹם, מַלְאֲכֵי עֶלְיוֹן, מִמֶּלֶךְ מַלְכֵי הַמְּלָכִים הַקָּדוֹשׁ בָּרוּךְ הוּא.")
 #rubric([Each verse is sung three times.])
 #v(9pt)
-#stanza("Shalóm aleichem malachei hashalom · Bo’achém l’shalóm malachei hashalom · Barchúni l’shalóm malachei hashalom · Tzet’chém l’shalóm malachei hashalom.",
+#stanza("Shalóm aléichem malachéi hashalóm · Bo’achém l’shalóm malachéi hashalóm · Barchúni l’shalóm malachéi hashalóm · Tzet’chém l’shalóm malachéi hashalóm.",
   "שָׁלוֹם עֲלֵיכֶם מַלְאֲכֵי הַשָּׁלוֹם · בּוֹאֲכֶם לְשָׁלוֹם מַלְאֲכֵי הַשָּׁלוֹם · בָּרְכוּנִי לְשָׁלוֹם מַלְאֲכֵי הַשָּׁלוֹם · צֵאתְכֶם לְשָׁלוֹם מַלְאֲכֵי הַשָּׁלוֹם.")
 #eng("Peace be upon you, angels of peace, angels of the Most High.")
 #eng("Come in peace, bless me with peace, and take your leave in peace.")

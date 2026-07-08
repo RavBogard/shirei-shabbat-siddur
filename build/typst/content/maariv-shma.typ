@@ -26,14 +26,14 @@
 }))
 #v(10pt)
 #submark("V’ahavta & Tzitzit")
-#ts("V’ahavtá et Adonai Elohécha, b’chol l’vavchá uv’chol nafsh’chá uv’chol m’odécha. V’hayú had’varím ha’éle asher anochí m’tzav’chá hayom al l’vavécha. V’shinantám l’vanécha v’dibartá bam, b’shivt’chá b’veitécha uv’lecht’chá vadérech, uv’shochb’chá uv’kumécha.",
+#ts("V’ahavtá et Adonai Elohécha, b’chol l’vavchá uvchol nafsh’chá uvchol m’odécha. V’hayú had’varím ha’éle asher anochí m’tzav’chá hayom al l’vavécha. V’shinantám l’vanécha v’dibartá bam, b’shivt’chá b’veitécha uvlecht’chá vadérech, uvshochb’chá uvkumécha.",
   "וְאָ֣הַבְתָּ֔ אֵ֖ת יְיָ אֱלֹהֶ֑יךָ בְּכׇל־לְבָבְךָ֥ וּבְכׇל־נַפְשְׁךָ֖ וּבְכׇל־מְאֹדֶֽךָ׃ וְהָי֞וּ הַדְּבָרִ֣ים הָאֵ֗לֶּה אֲשֶׁ֨ר אָנֹכִ֧י מְצַוְּךָ֛ הַיּ֖וֹם עַל־לְבָבֶֽךָ׃ וְשִׁנַּנְתָּ֣ם לְבָנֶ֔יךָ וְדִבַּרְתָּ֖ בָּ֑ם בְּשִׁבְתְּךָ֤ בְּבֵיתֶ֙ךָ֙ וּבְלֶכְתְּךָ֣ בַדֶּ֔רֶךְ וּֽבְשׇׁכְבְּךָ֖ וּבְקוּמֶֽךָ׃", label:"V’ahavta")
 #ts("Uk’shartám l’ot al yadécha, v’hayú l’totafót bein einécha. Uch’tavtám al m’zuzót beitécha uvish’arécha.",
   "וּקְשַׁרְתָּ֥ם לְא֖וֹת עַל־יָדֶ֑ךָ וְהָי֥וּ לְטֹטָפֹ֖ת בֵּ֥ין עֵינֶֽיךָ׃ וּכְתַבְתָּ֛ם עַל־מְזֻז֥וֹת בֵּיתֶ֖ךָ וּבִשְׁעָרֶֽיךָ׃")
 #ts("Vayómer Adonai el Moshé lemór:", "וַיֹּ֥אמֶר יְיָ אֶל־מֹשֶׁ֥ה לֵּאמֹֽר׃")
 #ts("Dabér el b’nei Yisra’él v’amartá alehém, v’asú lahém tzitzít al kanfei vig’deihém l’dorotám, v’natnú al tzitzít hakanáf p’til t’chélet.",
   "דַּבֵּ֞ר אֶל־בְּנֵ֤י יִשְׂרָאֵל֙ וְאָמַרְתָּ֣ אֲלֵהֶ֔ם וְעָשׂ֨וּ לָהֶ֥ם צִיצִ֛ת עַל־כַּנְפֵ֥י בִגְדֵיהֶ֖ם לְדֹרֹתָ֑ם וְנָ֥תְנ֛וּ עַל־צִיצִ֥ת הַכָּנָ֖ף פְּתִ֥יל תְּכֵֽלֶת׃", label:"The third paragraph")
-#ts("V’hayá lachém l’tzitzít, ur’itém otó uz’chartém et kol mitzvót Adonai, va’asitém otám, v’lo tatúru acharei l’vavchém v’acharei eineichém asher atém zoním achareihém.",
+#ts("V’hayá lachém l’tzitzít, ur’itém otó uzchartém et kol mitzvót Adonai, va’asitém otám, v’lo tatúru acharei l’vavchém v’acharei eineichém asher atém zoním achareihém.",
   "וְהָיָ֣ה לָכֶם֮ לְצִיצִת֒ וּרְאִיתֶ֣ם אֹת֗וֹ וּזְכַרְתֶּם֙ אֶת־כׇּל־מִצְוֺ֣ת יְיָ וַעֲשִׂיתֶ֖ם אֹתָ֑ם וְלֹֽא־תָת֜וּרוּ אַחֲרֵ֤י לְבַבְכֶם֙ וְאַחֲרֵ֣י עֵֽינֵיכֶ֔ם אֲשֶׁר־אַתֶּ֥ם זֹנִ֖ים אַחֲרֵיהֶֽם׃")
 #ts("L’ma’an tizk’rú va’asitém et kol mitzvotái, vih’yitém k’doshím leloheichém. Aní Adonai Eloheichém, asher hotzéti etchém me’éretz Mitzráyim lih’yót lachém lelohím, aní Adonai Eloheichém.",
   "לְמַ֣עַן תִּזְכְּר֔וּ וַעֲשִׂיתֶ֖ם אֶת־כׇּל־מִצְוֺתָ֑י וִהְיִיתֶ֥ם קְדֹשִׁ֖ים לֵאלֹֽהֵיכֶֽם׃ אֲנִ֞י יְיָ אֱלֹֽהֵיכֶ֗ם אֲשֶׁ֨ר הוֹצֵ֤אתִי אֶתְכֶם֙ מֵאֶ֣רֶץ מִצְרַ֔יִם לִהְי֥וֹת לָכֶ֖ם לֵאלֹהִ֑ים אֲנִ֖י יְיָ אֱלֹהֵיכֶֽם׃")

@@ -14,7 +14,7 @@
 
 // ===================== MA’ARIV ARAVIM =====================
 #startprayer("Ma’ariv Aravim · Who Brings on Evening", "מַעֲרִיב עֲרָבִים", sec: "Sh’ma & Its Blessings")
-#stanza("Barúch atá Adonai, Elohéinu mélech ha’olám, ashér bidvaró ma’arív aravím, b’chochmá potéach sh’arím, uvitvuná m’shané itím umachalíf et haz’maním, um’sadér et hakochavím b’mishm’rotéihem baraki’a kirtzonó.",
+#stanza("Barúch atá Adonai, Elohéinu mélech ha’olám, ashér bidvaró ma’arív aravím, b’chochmá potéach sh’arím, uvitvuná m’shané itím umachalíf et haz’maním, umsadér et hakochavím b’mishm’rotéihem baraki’a kirtzonó.",
   "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם אֲשֶׁר בִּדְבָרוֹ מַעֲרִיב עֲרָבִים בְּחָכְמָה פּוֹתֵחַ שְׁעָרִים וּבִתְבוּנָה מְשַׁנֶּה עִתִּים וּמַחֲלִיף אֶת־הַזְּמַנִּים וּמְסַדֵּר אֶת־הַכּוֹכָבִים בְּמִשְׁמְרוֹתֵיהֶם בָּרָקִיעַ כִּרְצוֹנוֹ.")
 #stanza("Boré yom valáyla, golél or mipnéi chóshech v’chóshech mipnéi or, uma’avír yom umévi láyla, umavdíl bein yom uvéin láyla, Adonai tz’va’ót sh’mo.",
   "בּוֹרֵא יוֹם וָלָיְלָה גּוֹלֵל אוֹר מִפְּנֵי חֹשֶׁךְ וְחֹשֶׁךְ מִפְּנֵי אוֹר וּמַעֲבִיר יוֹם וּמֵבִיא לָיְלָה וּמַבְדִּיל בֵּין יוֹם וּבֵין לָיְלָה יְיָ צְבָאוֹת שְׁמוֹ.")

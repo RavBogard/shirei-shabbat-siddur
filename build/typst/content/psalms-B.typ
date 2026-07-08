@@ -1,11 +1,11 @@
 #import "../book.typ": *
 // ===================== PSALM 98 =====================
 #startprayer("Psalm 98 · Mizmor Shiru", "מִזְמוֹר שִׁירוּ")
-#stanza("Mizmor, shíru l’Adonai shir chadásh, ki nifla’ót asáh; hoshí’ah lo y’minó uz’ró’a kodshó. Hodí’a Adonai yeshu’ató, l’einei hagoyím gilá tzidkató. Zachár chasdó ve’emunató l’veit Yisra’él, ra’ú chol afsei áretz et yeshu’át Elohéinu.",
+#stanza("Mizmor, shíru l’Adonai shir chadásh, ki nifla’ót asáh; hoshí’ah lo y’minó uzró’a kodshó. Hodí’a Adonai yeshu’ató, l’einei hagoyím gilá tzidkató. Zachár chasdó ve’emunató l’veit Yisra’él, ra’ú chol afsei áretz et yeshu’át Elohéinu.",
   "מִזְמוֹר שִׁירוּ לַיְיָ שִׁיר חָדָשׁ כִּי־נִפְלָאוֹת עָשָׂה הוֹשִׁיעָה־לּוֹ יְמִינוֹ וּזְרוֹעַ קׇדְשׁוֹ. הוֹדִיעַ יְיָ יְשׁוּעָתוֹ לְעֵינֵי הַגּוֹיִם גִּלָּה צִדְקָתוֹ. זָכַר חַסְדּוֹ וֶאֱמוּנָתוֹ לְבֵית יִשְׂרָאֵל רָאוּ כׇל־אַפְסֵי־אָרֶץ אֵת יְשׁוּעַת אֱלֹהֵינוּ.", label:"Sung")
 #stanza("Harí’u l’Adonai kol ha’áretz, pitzchú v’ran’nú v’zaméru. Zam’rú l’Adonai b’chinór, b’chinór v’kol zimráh. Bachatzotz’rót v’kol shofár, harí’u lifnei haMélech Adonai.",
   "הָרִיעוּ לַיְיָ כׇּל־הָאָרֶץ פִּצְחוּ וְרַנְּנוּ וְזַמֵּרוּ. זַמְּרוּ לַיְיָ בְּכִנּוֹר בְּכִנּוֹר וְקוֹל זִמְרָה. בַּחֲצֹצְרוֹת וְקוֹל שׁוֹפָר הָרִיעוּ לִפְנֵי הַמֶּלֶךְ יְיָ.")
-#stanza("Yir’ám hayám um’lo’ó, tevél v’yósh’vei vah. N’harót yimcha’ú chaf, yáchad harím y’ranénu. Lifnei Adonai, ki va lishpót ha’áretz; yishpót tevél b’tzédek, v’amím b’meisharím.",
+#stanza("Yir’ám hayám umlo’ó, tevél v’yósh’vei vah. N’harót yimcha’ú chaf, yáchad harím y’ranénu. Lifnei Adonai, ki va lishpót ha’áretz; yishpót tevél b’tzédek, v’amím b’meisharím.",
   "יִרְעַם הַיָּם וּמְלֹאוֹ תֵּבֵל וְיֹשְׁבֵי בָהּ. נְהָרוֹת יִמְחֲאוּ־כָף יַחַד הָרִים יְרַנֵּנוּ. לִפְנֵי־יְיָ כִּי בָא לִשְׁפֹּט הָאָרֶץ יִשְׁפֹּט־תֵּבֵל בְּצֶדֶק וְעַמִּים בְּמֵישָׁרִים.")
 #eng("Sing a new song, for wonders have been done: freedom won by an outstretched arm. That saving power is made known to all the nations, and steady, faithful love kept for the house of Israel — until the very ends of the earth have seen the rescue our God brings.")
 #eng("Shout out, all the earth — burst into song, break open with music! Make music on the harp, with the harp and the sound of singing; with trumpets and the call of the shofar, raise a shout before the One who reigns over all.")
@@ -34,7 +34,7 @@
   "מִזְמוֹר לְדָוִד הָבוּ לַיְיָ בְּנֵי אֵלִים הָבוּ לַיְיָ כָּבוֹד וָעֹז. הָבוּ לַיְיָ כְּבוֹד שְׁמוֹ הִשְׁתַּחֲווּ לַיְיָ בְּהַדְרַת־קֹדֶשׁ.")
 #stanza("Kol Adonai al hamáyim, El hakavód hir’ím, Adonai al máyim rabím. Kol Adonai bakó’ach, kol Adonai behadár. Kol Adonai shovér arazím, vay’shabér Adonai et arzei haL’vanón. Vayarkidém k’mo égel, L’vanón v’Siryón k’mo ven r’emím.",
   "קוֹל יְיָ עַל־הַמָּיִם אֵל־הַכָּבוֹד הִרְעִים יְיָ עַל־מַיִם רַבִּים. קוֹל־יְיָ בַּכֹּחַ קוֹל יְיָ בֶּהָדָר. קוֹל יְיָ שֹׁבֵר אֲרָזִים וַיְשַׁבֵּר יְיָ אֶת־אַרְזֵי הַלְּבָנוֹן. וַיַּרְקִידֵם כְּמוֹ־עֵגֶל לְבָנוֹן וְשִׂרְיֹן כְּמוֹ בֶן־רְאֵמִים.")
-#stanza("Kol Adonai chotzév lahavót esh. Kol Adonai yachíl midbár, yachíl Adonai midbár Kadésh. Kol Adonai y’cholél ayalót vayechesóf y’arót, uv’heichaló kuló omér kavód.",
+#stanza("Kol Adonai chotzév lahavót esh. Kol Adonai yachíl midbár, yachíl Adonai midbár Kadésh. Kol Adonai y’cholél ayalót vayechesóf y’arót, uvheichaló kuló omér kavód.",
   "קוֹל־יְיָ חֹצֵב לַהֲבוֹת אֵשׁ. קוֹל יְיָ יָחִיל מִדְבָּר יָחִיל יְיָ מִדְבַּר קָדֵשׁ. קוֹל יְיָ יְחוֹלֵל אַיָּלוֹת וַיֶּחֱשֹׂף יְעָרוֹת וּבְהֵיכָלוֹ כֻּלּוֹ אֹמֵר כָּבוֹד.")
 #stanza("Adonai lamabúl yasháv, vayéshev Adonai mélech l’olám. Adonai oz l’amó yitén, Adonai y’varéch et amó vashalóm.",
   "יְיָ לַמַּבּוּל יָשָׁב וַיֵּשֶׁב יְיָ מֶלֶךְ לְעוֹלָם. יְיָ עֹז לְעַמּוֹ יִתֵּן יְיָ יְבָרֵךְ אֶת־עַמּוֹ בַשָּׁלוֹם.", label:"Sung")

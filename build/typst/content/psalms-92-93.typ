@@ -2,7 +2,7 @@
 #startprayer("Psalm 92 · Mizmor Shir l’Yom haShabbat", "מִזְמוֹר שִׁיר לְיוֹם הַשַּׁבָּת")
 #stanza("Mizmór shir l’yom haShabbat.",
   "מִזְמוֹר שִׁיר לְיוֹם הַשַּׁבָּת.", label:"Sung")
-#stanza("Tov l’hodót la’Adonai, ul’zamér l’shimchá elyón. L’hagíd babóker chasdécha, ve’emunatchá baleilót. Alei-asór va’alei-nável, alei higayón b’chinór.",
+#stanza("Tov l’hodót la’Adonai, ulzamér l’shimchá elyón. L’hagíd babóker chasdécha, ve’emunatchá baleilót. Alei-asór va’alei-nável, alei higayón b’chinór.",
   "טוֹב לְהֹדוֹת לַיְיָ וּלְזַמֵּר לְשִׁמְךָ עֶלְיוֹן. לְהַגִּיד בַּבֹּקֶר חַסְדֶּךָ וֶאֱמוּנָתְךָ בַּלֵּילוֹת. עֲלֵי־עָשׂוֹר וַעֲלֵי־נָבֶל עֲלֵי הִגָּיוֹן בְּכִנּוֹר.")
 #stanza("Ki simachtáni Adonai b’fo’olécha, b’ma’aséi yadécha aranén. Mah gadlú ma’asécha Adonai, m’ód amkú machsh’votécha.",
   "כִּי שִׂמַּחְתַּנִי יְיָ בְּפׇעֳלֶךָ בְּמַעֲשֵׂי יָדֶיךָ אֲרַנֵּן. מַה־גָּדְלוּ מַעֲשֶׂיךָ יְיָ מְאֹד עָמְקוּ מַחְשְׁבֹתֶיךָ.")

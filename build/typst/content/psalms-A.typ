@@ -20,13 +20,13 @@
 #startprayer("Psalm 96 · Shiru l’Adonai", "שִׁירוּ לַיְיָ")
 #stanza("Shíru l’Adonai shir chadásh, shíru l’Adonai kol ha’áretz. Shíru l’Adonai barchú sh’mo, basrú miyom l’yom yeshuató. Sap’rú vagoyím k’vodó, b’chol ha’amim nifl’otáv.",
   "שִׁירוּ לַיְיָ שִׁיר חָדָשׁ, שִׁירוּ לַיְיָ כׇּל־הָאָרֶץ. שִׁירוּ לַיְיָ בָּרְכוּ שְׁמוֹ, בַּשְּׂרוּ מִיּוֹם־לְיוֹם יְשׁוּעָתוֹ. סַפְּרוּ בַגּוֹיִם כְּבוֹדוֹ, בְּכׇל־הָעַמִּים נִפְלְאוֹתָיו.")
-#stanza("Ki gadól Adonai um’hulál me’od, norá hu al kol elohím. Ki kol elohei ha’amim elilím, va’Adonai shamáyim asá. Hod v’hadár l’fanav, oz v’tif’éret b’mikdashó.",
+#stanza("Ki gadól Adonai umhulál me’od, norá hu al kol elohím. Ki kol elohei ha’amim elilím, va’Adonai shamáyim asá. Hod v’hadár l’fanav, oz v’tif’éret b’mikdashó.",
   "כִּי גָדוֹל יְיָ וּמְהֻלָּל מְאֹד, נוֹרָא הוּא עַל־כׇּל־אֱלֹהִים. כִּי כׇּל־אֱלֹהֵי הָעַמִּים אֱלִילִים, וַיְיָ שָׁמַיִם עָשָׂה. הוֹד־וְהָדָר לְפָנָיו, עֹז וְתִפְאֶרֶת בְּמִקְדָּשׁוֹ.")
 #stanza("Havu l’Adonai mishp’chot amim, havu l’Adonai kavod va’oz. Havu l’Adonai k’vod sh’mo, s’u minchá uvó’u l’chatzrotáv. Hishtachavú l’Adonai b’hadrat kódesh, chílu mipanáv kol ha’áretz.",
   "הָבוּ לַיְיָ מִשְׁפְּחוֹת עַמִּים, הָבוּ לַיְיָ כָּבוֹד וָעֹז. הָבוּ לַיְיָ כְּבוֹד שְׁמוֹ, שְׂאוּ־מִנְחָה וּבֹאוּ לְחַצְרוֹתָיו. הִשְׁתַּחֲווּ לַיְיָ בְּהַדְרַת־קֹדֶשׁ, חִילוּ מִפָּנָיו כׇּל־הָאָרֶץ.")
 #stanza("Imru vagoyím Adonai malách, af tikón tevél bal timót, yadín amim b’meishárim.",
   "אִמְרוּ בַגּוֹיִם יְיָ מָלָךְ, אַף־תִּכּוֹן תֵּבֵל בַּל־תִּמּוֹט, יָדִין עַמִּים בְּמֵישָׁרִים.")
-#stanza("Yism’chú hashamáyim v’tagel ha’áretz, yir’am hayám um’lo’ó. Ya’alóz sadái v’chol asher bo, az y’ran’nú kol atzei yá’ar. Lifnei Adonai ki va, ki va lishpót ha’áretz, yishpót tevél b’tzédek, v’amim be’emunató.",
+#stanza("Yism’chú hashamáyim v’tagel ha’áretz, yir’am hayám umlo’ó. Ya’alóz sadái v’chol asher bo, az y’ran’nú kol atzei yá’ar. Lifnei Adonai ki va, ki va lishpót ha’áretz, yishpót tevél b’tzédek, v’amim be’emunató.",
   "יִשְׂמְחוּ הַשָּׁמַיִם וְתָגֵל הָאָרֶץ, יִרְעַם הַיָּם וּמְלֹאוֹ. יַעֲלֹז שָׂדַי וְכׇל־אֲשֶׁר־בּוֹ, אָז יְרַנְּנוּ כׇּל־עֲצֵי־יָעַר. לִפְנֵי יְיָ כִּי בָא, כִּי בָא לִשְׁפֹּט הָאָרֶץ, יִשְׁפֹּט־תֵּבֵל בְּצֶדֶק וְעַמִּים בֶּאֱמוּנָתוֹ.", label:"Sung")
 #eng("Sing to the One a new song — sing, all the earth. Sing and bless the Name; tell the good news of rescue day after day. Declare that glory among the nations, those wonders among all peoples.")
 #eng("For great is the One and greatly to be praised, awesome beyond all powers. The gods of the nations are hollow, but the One made the heavens. Splendor and majesty fill that presence; strength and beauty, the holy place.")
@@ -45,7 +45,7 @@
   "שָׁמְעָה וַתִּשְׂמַח צִיּוֹן, וַתָּגֵלְנָה בְּנוֹת יְהוּדָה, לְמַעַן מִשְׁפָּטֶיךָ יְיָ. כִּי־אַתָּה יְיָ עֶלְיוֹן עַל־כׇּל־הָאָרֶץ, מְאֹד נַעֲלֵיתָ עַל־כׇּל־אֱלֹהִים.")
 #stanza("Ohavei Adonai sin’u ra, shomér nafshót chasidáv, miyad r’sha’ím yatzilém.",
   "אֹהֲבֵי יְיָ שִׂנְאוּ־רָע, שֹׁמֵר נַפְשׁוֹת חֲסִידָיו, מִיַּד רְשָׁעִים יַצִּילֵם.")
-#stanza("Or zarú’a latzadík, ul’yishrei lev simchá. Simchú tzadikím b’Adonai, v’hodú l’zécher kodshó.",
+#stanza("Or zarú’a latzadík, ulyishrei lev simchá. Simchú tzadikím b’Adonai, v’hodú l’zécher kodshó.",
   "אוֹר זָרֻעַ לַצַּדִּיק, וּלְיִשְׁרֵי־לֵב שִׂמְחָה. שִׂמְחוּ צַדִּיקִים בַּיְיָ, וְהוֹדוּ לְזֵכֶר קׇדְשׁוֹ.", label:"Sung")
 #eng("The One reigns — let the earth rejoice, let the many shores be glad. Cloud and deep mist surround that presence; justice and right are the ground on which it stands. Fire goes ahead, blazing round every foe.")
 #eng("The lightnings light the world; the earth sees and shudders. Mountains melt like wax before the One, before the Source of all the earth. The heavens tell that justice, and all the peoples see the glory.")

@@ -33,6 +33,7 @@
 
 // ===================== 2 · G’VUROT =====================
 #startprayer("G’vurot", "גְּבוּרוֹת", sec: "Amidah")
+// אֲדֹנָי in "l'olám Adonái" is the received text (not the Name) — conscious exception to the יְיָ rule. Logged 2026-07-08.
 #stanza("Atá gibór l’olám Adonai, m’chayéh hakól/meitím atá, rav l’hoshí’a.",
   "אַתָּה גִּבּוֹר לְעוֹלָם אֲדֹנָי, מְחַיֵּה הַכֹּל/מֵתִים אַתָּה, רַב לְהוֹשִׁיעַ.")
 #seasonal("In winter", "mashiv harúach umorid hagáshem", "מַשִּׁיב הָרוּחַ וּמוֹרִיד הַגֶּשֶׁם", "You cause the wind to blow and the rain to fall.")
@@ -40,8 +41,8 @@
 #stanza("M’chalkél chayím b’chésed, m’chayéh hakól/meitím b’rachamím rabím, soméch nof’lím, v’rofé cholím, umatír asurím, umkayém emunató lishenéi afár. Mi chamócha bá’al g’vurót, umi dómeh lach, mélech memít umchayéh umatzmí’ach y’shu’á.",
   "מְכַלְכֵּל חַיִּים בְּחֶסֶד, מְחַיֵּה הַכֹּל/מֵתִים בְּרַחֲמִים רַבִּים, סוֹמֵךְ נוֹפְלִים, וְרוֹפֵא חוֹלִים, וּמַתִּיר אֲסוּרִים, וּמְקַיֵּם אֱמוּנָתוֹ לִישֵׁנֵי עָפָר. מִי כָמוֹךָ בַּעַל גְּבוּרוֹת, וּמִי דּוֹמֶה לָּךְ, מֶלֶךְ מֵמִית וּמְחַיֶּה וּמַצְמִיחַ יְשׁוּעָה.")
 #seasonmark[Ten Days: Mi Chamocha av harachamim — see p. 52]
-#stanza("V’ne’emán atá l’hachayót hakól. Barúch atá Adonai, m’chayéh hakól/meitím.",
-  "וְנֶאֱמָן אַתָּה לְהַחֲיוֹת הַכֹּל. בָּרוּךְ אַתָּה יְיָ, מְחַיֵּה הַכֹּל/מֵתִים.")
+#stanza("V’ne’emán atá l’hachayót hakól/meitím. Barúch atá Adonai, m’chayéh hakól/meitím.",
+  "וְנֶאֱמָן אַתָּה לְהַחֲיוֹת הַכֹּל/מֵתִים. בָּרוּךְ אַתָּה יְיָ, מְחַיֵּה הַכֹּל/מֵתִים.")
 #eng("You are forever mighty — You give life to all / revive the dead, and Your saving power is great. You sustain the living with love, giving life to all with great compassion; You hold up the falling, heal the sick, free the captive, and keep faith with those who sleep in the dust.")
 #engn("Who is like You, Source of all power? Who can compare — bringing death and life, and making rescue blossom? You are faithful to give life to all. Blessed are You, the One who gives life to all / who revives the dead.",
   [This siddur prints both, side by side — מְחַיֵּה הַכֹּל / מֵתִים, "who gives life to all," "who revives the dead." The older phrase (#emph[m’chayeh (ha)metim]) speaks of reviving the dead; the Reform phrase (#emph[m’chayeh hakol]) opens that hope to all. Pray whichever speaks to you — many hear it as metaphor for renewal: the buried seed, the waking dawn, the promise that nothing loved is finally lost.])
@@ -49,7 +50,7 @@
 // ===================== 3 · K’DUSHAT HASHEM =====================
 #startprayer("The Holiness of the Name", "קְדֻשַּׁת הַשֵּׁם", sec: "Amidah")
 #stanza("Atá kadósh v’shimchá kadósh, ukdoshím b’chol yom y’hal’lúcha, sélah. Barúch atá Adonai, ha’El hakadósh.",
-  "אַתָּה קָדוֹשׁ וְשִׁמְךָ קָדוֹשׁ, וּקְדוֹשִׁים בְּכָל יוֹם יְהַלְלוּךָ, סֶּלָה. בָּרוּךְ אַתָּה יְיָ, הָאֵל הַקָּדוֹשׁ.")
+  "אַתָּה קָדוֹשׁ וְשִׁמְךָ קָדוֹשׁ, וּקְדוֹשִׁים בְּכָל יוֹם יְהַלְלוּךָ, סֶלָה. בָּרוּךְ אַתָּה יְיָ, הָאֵל הַקָּדוֹשׁ.")
 #seasonmark[Ten Days: haMélech hakadósh — see p. 53]
 #engn("You are holy, and Your name is holy, and those who seek holiness praise You every day. Blessed are You, the holy God.",
   [In the morning and afternoon, when the Amidah is repeated aloud, this blessing opens into the communal Kedushah. The evening Amidah is never repeated — so here, even in a full congregation, it keeps its short, ancient form: three plain sentences that simply hold the word "holy" up to the light. (Friday night’s communal sanctification comes later, in Me’ein Sheva.)])
@@ -59,7 +60,7 @@
 #stanza("Atá kidáshta et yom hashvi’í lishmécha, tachlít ma’aséh shamáyim va’áretz, uveráchto mikól hayamím, v’kidáshto mikól hazmaním, v’chen katúv b’toratécha:",
   "אַתָּה קִדַּשְׁתָּ אֶת יוֹם הַשְּׁבִיעִי לִשְׁמֶךָ, תַּכְלִית מַעֲשֵׂה שָׁמַיִם וָאָרֶץ, וּבֵרַכְתּוֹ מִכָּל הַיָּמִים, וְקִדַּשְׁתּוֹ מִכָּל הַזְּמַנִּים, וְכֵן כָּתוּב בְּתוֹרָתֶךָ:")
 #stanza([Vay’chulú hashamáyim v’ha’áretz v’chol tz’va’ám. Vay’chál Elohím bayóm hash’vi’í m’lachtó ashér asáh, vayishbót bayóm hash’vi’í mikól m’lachtó ashér asáh. Vay’várech Elohím et yom hash’vi’í vay’kadésh otó, ki vo shavát mikól m’lachtó ashér bará Elohím la’asót.],
-  [וַיְכֻלּוּ הַשָּׁמַיִם וְהָאָרֶץ וְכָל צְבָאָם. וַיְכַל אֱלֹהִים בַּיּוֹם הַשְּׁבִיעִי מְלַאכְתּוֹ אֲשֶׁר עָשָׂה, וַיִּשְׁבֹּת בַּיּוֹם הַשְּׁבִיעִי מִכָּל מְלַאכְתּוֹ אֲשֶׁר עָשָׂה. וַיְבָרֶךְ אֱלֹהִים אֶת יוֹם הַשְּׁבִיעִי וַיְקַדֵּשׁ אֹתוֹ, כִּי בוֹ שָׁבַת מִכָּל מְלַאכְתּוֹ אֲשֶׁר בָּרָא אֱלֹהִים לַעֲשׂוֹת.])
+  [וַיְכֻלּוּ הַשָּׁמַיִם וְהָאָרֶץ וְכׇל־צְבָאָם. וַיְכַל אֱלֹהִים בַּיּוֹם הַשְּׁבִיעִי מְלַאכְתּוֹ אֲשֶׁר עָשָׂה, וַיִּשְׁבֹּת בַּיּוֹם הַשְּׁבִיעִי מִכׇּל־מְלַאכְתּוֹ אֲשֶׁר עָשָׂה. וַיְבָרֶךְ אֱלֹהִים אֶת־יוֹם הַשְּׁבִיעִי וַיְקַדֵּשׁ אֹתוֹ, כִּי בוֹ שָׁבַת מִכׇּל־מְלַאכְתּוֹ אֲשֶׁר בָּרָא אֱלֹהִים לַעֲשׂוֹת.])
 #stanza("Elohéinu ve’lohéi avotéinu v’imotéinu, r’tzéh vimnuchaténu, kad’shénu b’mitzvotécha, v’ten chelkénu b’toratécha, sab’énu mituvécha, v’samchénu bishu’atécha, v’tahér libénu l’ovd’chá be’emét. V’hanchilénu Adonai Elohéinu b’ahavá uvratzón Shabbat kodshécha, v’yanúchu vah Yisra’él m’kad’shéi sh’mécha. Barúch atá Adonai, m’kadésh haShabbat.",
   "אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ וְאִמּוֹתֵינוּ, רְצֵה בִמְנוּחָתֵנוּ, קַדְּשֵׁנוּ בְּמִצְוֹתֶיךָ, וְתֵן חֶלְקֵנוּ בְּתוֹרָתֶךָ, שַׂבְּעֵנוּ מִטּוּבֶךָ, וְשַׂמְּחֵנוּ בִּישׁוּעָתֶךָ, וְטַהֵר לִבֵּנוּ לְעָבְדְּךָ בֶּאֱמֶת. וְהַנְחִילֵנוּ יְיָ אֱלֹהֵינוּ בְּאַהֲבָה וּבְרָצוֹן שַׁבַּת קָדְשֶׁךָ, וְיָנוּחוּ בָהּ יִשְׂרָאֵל מְקַדְּשֵׁי שְׁמֶךָ. בָּרוּךְ אַתָּה יְיָ, מְקַדֵּשׁ הַשַּׁבָּת.")
 #eng("You made the seventh day holy to Your name, the crown of the making of heaven and earth. You blessed it above all days and made it holy above all seasons — as it is written in Your Torah:")
@@ -69,7 +70,7 @@
 
 // ===================== 5 · AVODAH / R’TZEH =====================
 #startprayer("Draw Near", "עֲבוֹדָה", sec: "Amidah")
-#stanza("R’tzéh Adonai Elohéinu b’am’chá Yisra’él uvitfilatám, uv’ahavá t’kabél b’ratzón, uthí l’ratzón tamíd avodát Yisra’él amécha.",
+#stanza("R’tzéh Adonai Elohéinu b’am’chá Yisra’él uvitfilatám, uvahavá t’kabél b’ratzón, uthí l’ratzón tamíd avodát Yisra’él amécha.",
   "רְצֵה יְיָ אֱלֹהֵינוּ בְּעַמְּךָ יִשְׂרָאֵל וּבִתְפִלָּתָם, וּבְאַהֲבָה תְקַבֵּל בְּרָצוֹן, וּתְהִי לְרָצוֹן תָּמִיד עֲבוֹדַת יִשְׂרָאֵל עַמֶּךָ.")
 #seasonmark[Ya’aleh V’yavo — on Rosh Chodesh & festivals, see p. 48]
 #stanza("V’techezéna einéinu b’shuvchá l’Tziyón b’rachamím. Barúch atá Adonai, hamachazír sh’chinató l’Tziyón.",
@@ -89,7 +90,7 @@
 #seasonmark[Ten Days: Uch’tóv l’chayím — see p. 52]
 #ritual([some bow once more, in thanks])
 #stanza("V’al kulám yitbaréch v’yitromám shimchá tamíd l’olám va’éd. V’chol hachayím yodúcha sélah, vihal’lú et shimchá be’emét, ha’El y’shu’aténu v’ezraténu sélah. Barúch atá Adonai, hatóv shimchá ulchá na’éh l’hodót.",
-  "וְעַל כֻּלָּם יִתְבָּרַךְ וְיִתְרוֹמַם שִׁמְךָ תָּמִיד לְעוֹלָם וָעֶד. וְכֹל הַחַיִּים יוֹדוּךָ סֶּלָה, וִיהַלְלוּ אֶת שִׁמְךָ בֶּאֱמֶת, הָאֵל יְשׁוּעָתֵנוּ וְעֶזְרָתֵנוּ סֶלָה. בָּרוּךְ אַתָּה יְיָ, הַטּוֹב שִׁמְךָ וּלְךָ נָאֶה לְהוֹדוֹת.")
+  "וְעַל כֻּלָּם יִתְבָּרַךְ וְיִתְרוֹמַם שִׁמְךָ תָּמִיד לְעוֹלָם וָעֶד. וְכֹל הַחַיִּים יוֹדוּךָ סֶלָה, וִיהַלְלוּ אֶת שִׁמְךָ בֶּאֱמֶת, הָאֵל יְשׁוּעָתֵנוּ וְעֶזְרָתֵנוּ סֶלָה. בָּרוּךְ אַתָּה יְיָ, הַטּוֹב שִׁמְךָ וּלְךָ נָאֶה לְהוֹדוֹת.")
 #eng("We thank You, for You are the One, our God and the God of our fathers and mothers, forever. Rock of our life, shield of our rescue — so You are, in every generation. We give thanks and tell Your praise: for our lives, held in Your hand; for our souls, entrusted to You; for Your miracles that are with us every day; and for Your wonders and Your gifts at every moment — evening, morning, and noon.")
 #eng("You are the Good, whose mercies never end; the Compassionate, whose kindnesses never fail — always we have placed our hope in You.")
 #engn("For all these things may Your name be blessed and raised up, always and forever. Let all that lives give thanks to You, and praise Your name in truth, God of our rescue and our help. Blessed are You, whose name is Goodness, and to whom thanks are due.",

@@ -32,7 +32,7 @@
   "בִּימֵי מַתִּתְיָהוּ בֶּן יוֹחָנָן כֹּהֵן גָּדוֹל חַשְׁמוֹנָאִי וּבָנָיו, כְּשֶׁעָמְדָה מַלְכוּת יָוָן הָרְשָׁעָה עַל עַמְּךָ יִשְׂרָאֵל לְהַשְׁכִּיחָם תּוֹרָתֶךָ, וּלְהַעֲבִירָם מֵחֻקֵּי רְצוֹנֶךָ,")
 #stanza("v’atá b’rachaméicha harabím amádeta lahém b’et tzaratám, ráveta et rivám, dánta et dinám, nakámta et nikmatám, masárta giborím b’yad chalashím, v’rabím b’yad m’atím, ut’me’ím b’yad t’horím, ursha’ím b’yad tzadikím, v’zeidím b’yad os’kéi toratécha.",
   "וְאַתָּה בְּרַחֲמֶיךָ הָרַבִּים עָמַדְתָּ לָהֶם בְּעֵת צָרָתָם, רַבְתָּ אֶת רִיבָם, דַּנְתָּ אֶת דִּינָם, נָקַמְתָּ אֶת נִקְמָתָם, מָסַרְתָּ גִבּוֹרִים בְּיַד חַלָּשִׁים, וְרַבִּים בְּיַד מְעַטִּים, וּטְמֵאִים בְּיַד טְהוֹרִים, וּרְשָׁעִים בְּיַד צַדִּיקִים, וְזֵדִים בְּיַד עוֹסְקֵי תוֹרָתֶךָ.")
-#stanza("Ulchá asíta shem gadól v’kadósh b’olamécha, ul’am’chá Yisra’él asíta t’shu’á g’dolá ufurkán k’hayóm hazé. V’achár ken bá’u vanécha lidvír beitécha, ufinú et heichalécha, v’tiharú et mikdashécha, v’hidlíku nerót b’chatzrót kodshécha, v’kav’ú sh’monát y’méi Chanuká éilu, l’hodót ulhalél l’shimchá hagadól.",
+#stanza("Ulchá asíta shem gadól v’kadósh b’olamécha, ulam’chá Yisra’él asíta t’shu’á g’dolá ufurkán k’hayóm hazé. V’achár ken bá’u vanécha lidvír beitécha, ufinú et heichalécha, v’tiharú et mikdashécha, v’hidlíku nerót b’chatzrót kodshécha, v’kav’ú sh’monát y’méi Chanuká éilu, l’hodót ulhalél l’shimchá hagadól.",
   "וּלְךָ עָשִׂיתָ שֵׁם גָּדוֹל וְקָדוֹשׁ בְּעוֹלָמֶךָ, וּלְעַמְּךָ יִשְׂרָאֵל עָשִׂיתָ תְּשׁוּעָה גְדוֹלָה וּפֻרְקָן כְּהַיּוֹם הַזֶּה. וְאַחַר כֵּן בָּאוּ בָנֶיךָ לִדְבִיר בֵּיתֶךָ, וּפִנּוּ אֶת הֵיכָלֶךָ, וְטִהֲרוּ אֶת מִקְדָּשֶׁךָ, וְהִדְלִיקוּ נֵרוֹת בְּחַצְרוֹת קָדְשֶׁךָ, וְקָבְעוּ שְׁמוֹנַת יְמֵי חֲנֻכָּה אֵלּוּ, לְהוֹדוֹת וּלְהַלֵּל לְשִׁמְךָ הַגָּדוֹל.")
 #eng("For the miracles and the rescue, for the mighty acts, the deliverances, and the wonders that You did for our fathers and mothers in those days, at this season:")
 #eng("In the days of Mattathias son of Yochanan, the High Priest, the Hasmonean, and his sons — when a wicked empire rose against Your people Israel to make them forget Your Torah and turn them from the laws of Your will — You in Your great mercy stood by them in their time of trouble. You took up their cause, judged their claim, and answered their wrong; You gave the strong into the hands of the weak, the many into the hands of the few, the impure into the hands of the pure, the guilty into the hands of the innocent, and the arrogant into the hands of those who kept Your Torah.")
@@ -45,7 +45,7 @@
 // ============================================================
 #rubric([On Purim, add in the Modim (Thanksgiving) blessing — beginning with the same "Al hanisim" opening above, then:])
 #startprayer("In the Days of Mordechai", "בִּימֵי מָרְדְּכַי", sec: "Seasonal & Kiddush")
-#stanza("Biméi Mord’chái v’Estér b’Shushán habirá, k’she’amád aleihém Hamán harashá, bikésh l’hashmíd laharóg ul’abéd et kol haY’hudím, mina’ar v’ad zakén, taf v’nashím, b’yom echád, bishloshá asár l’chódesh sh’neim asár, hu chódesh Adár, ushlalám lavóz.",
+#stanza("Biméi Mord’chái v’Estér b’Shushán habirá, k’she’amád aleihém Hamán harashá, bikésh l’hashmíd laharóg ulabéd et kol haY’hudím, mina’ar v’ad zakén, taf v’nashím, b’yom echád, bishloshá asár l’chódesh sh’neim asár, hu chódesh Adár, ushlalám lavóz.",
   "בִּימֵי מָרְדְּכַי וְאֶסְתֵּר בְּשׁוּשַׁן הַבִּירָה, כְּשֶׁעָמַד עֲלֵיהֶם הָמָן הָרָשָׁע, בִּקֵּשׁ לְהַשְׁמִיד לַהֲרוֹג וּלְאַבֵּד אֶת כָּל הַיְּהוּדִים, מִנַּעַר וְעַד זָקֵן, טַף וְנָשִׁים, בְּיוֹם אֶחָד, בִּשְׁלוֹשָׁה עָשָׂר לְחֹדֶשׁ שְׁנֵים עָשָׂר, הוּא חֹדֶשׁ אֲדָר, וּשְׁלָלָם לָבוֹז.")
 #stanza("V’atá b’rachaméicha harabím hefárta et atzató, v’kilkálta et machashavtó, vahashevóta lo g’muló b’roshó, v’talú otó v’et banáv al ha’etz.",
   "וְאַתָּה בְּרַחֲמֶיךָ הָרַבִּים הֵפַרְתָּ אֶת עֲצָתוֹ, וְקִלְקַלְתָּ אֶת מַחֲשַׁבְתּוֹ, וַהֲשֵׁבוֹתָ לּוֹ גְּמוּלוֹ בְּרֹאשׁוֹ, וְתָלוּ אוֹתוֹ וְאֶת בָּנָיו עַל הָעֵץ.")
@@ -121,7 +121,7 @@
   "בָּרוּךְ אַתָּה יְיָ, אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר בָּחַר בָּנוּ מִכָּל עָם, וְרוֹמְמָנוּ מִכָּל לָשׁוֹן, וְקִדְּשָׁנוּ בְּמִצְוֹתָיו. וַתִּתֶּן לָנוּ יְיָ אֱלֹהֵינוּ בְּאַהֲבָה שַׁבָּתוֹת לִמְנוּחָה וּמוֹעֲדִים לְשִׂמְחָה, חַגִּים וּזְמַנִּים לְשָׂשׂוֹן, אֶת יוֹם הַשַּׁבָּת הַזֶּה וְאֶת יוֹם")
 #stanza("Chag haMatzót hazé, z’man cherotéinu / Chag haShavu’ót hazé, z’man matán toratéinu / Chag haSukót hazé, z’man simchaténu,",
   "חַג הַמַּצּוֹת הַזֶּה, זְמַן חֵרוּתֵנוּ / חַג הַשָּׁבוּעוֹת הַזֶּה, זְמַן מַתַּן תּוֹרָתֵנוּ / חַג הַסֻּכּוֹת הַזֶּה, זְמַן שִׂמְחָתֵנוּ,", label: "name the festival")
-#stanza("b’ahavá mikrá kódesh, zécher litzi’át Mitzráyim. Ki vánu vachárta v’otánu kidáshta mikól ha’amím, v’Shabbat umo’adéi kodshécha b’ahavá uv’ratzón b’simchá uvsasón hinchaltánu.",
+#stanza("b’ahavá mikrá kódesh, zécher litzi’át Mitzráyim. Ki vánu vachárta v’otánu kidáshta mikól ha’amím, v’Shabbat umo’adéi kodshécha b’ahavá uvratzón b’simchá uvsasón hinchaltánu.",
   "בְּאַהֲבָה מִקְרָא קֹדֶשׁ, זֵכֶר לִיצִיאַת מִצְרָיִם. כִּי בָנוּ בָחַרְתָּ וְאוֹתָנוּ קִדַּשְׁתָּ מִכָּל הָעַמִּים, וְשַׁבָּת וּמוֹעֲדֵי קָדְשֶׁךָ בְּאַהֲבָה וּבְרָצוֹן בְּשִׂמְחָה וּבְשָׂשׂוֹן הִנְחַלְתָּנוּ.")
 #chatimah("Barúch atá Adonai, m’kadésh haShabbat v’Yisra’él v’hazmaním.",
   "בָּרוּךְ אַתָּה יְיָ, מְקַדֵּשׁ הַשַּׁבָּת וְיִשְׂרָאֵל וְהַזְּמַנִּים.")

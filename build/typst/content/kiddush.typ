@@ -30,11 +30,11 @@
 #eng("Blessed are You, HaShem our God, Source of all being, Creator of the fruit of the vine.")
 
 // ===================== THE SANCTIFICATION OF THE DAY =====================
-#stanza("Barúch atá Adonai, Elohéinu mélech ha’olám, ashér kid’shánu b’mitzvotáv v’rátza vánu, v’Shabbat kodshó b’ahavá uv’ratzón hinchilánu, zikarón l’ma’aséi v’reishít.",
+#stanza("Barúch atá Adonai, Elohéinu mélech ha’olám, ashér kid’shánu b’mitzvotáv v’ratzá vánu, v’Shabbat kodshó b’ahavá uvratzón hinchilánu, zikarón l’ma’aséi v’reishít.",
   "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְרָצָה בָנוּ, וְשַׁבַּת קָדְשׁוֹ בְּאַהֲבָה וּבְרָצוֹן הִנְחִילָנוּ, זִכָּרוֹן לְמַעֲשֵׂה בְרֵאשִׁית.", label: "Sanctifying the day")
 #stanza("Ki hu yom t’chilá l’mikra’éi kódesh, zécher litzi’át mitzráyim.",
   "כִּי הוּא יוֹם תְּחִלָּה לְמִקְרָאֵי קֹדֶשׁ, זֵכֶר לִיצִיאַת מִצְרָיִם.")
-#chatimah("Ki vánu vachárta v’otánu kidáshta mikól ha’amím, v’Shabbat kodsh’chá b’ahavá uv’ratzón hinchaltánu. Barúch atá Adonai, m’kadésh haShabbat.",
+#chatimah("Ki vánu vachárta v’otánu kidáshta mikól ha’amím, v’Shabbat kodsh’chá b’ahavá uvratzón hinchaltánu. Barúch atá Adonai, m’kadésh haShabbat.",
   "כִּי בָנוּ בָחַרְתָּ וְאוֹתָנוּ קִדַּשְׁתָּ מִכָּל הָעַמִּים וְשַׁבַּת קָדְשְׁךָ בְּאַהֲבָה וּבְרָצוֹן הִנְחַלְתָּנוּ. בָּרוּךְ אַתָּה יְיָ, מְקַדֵּשׁ הַשַּׁבָּת.")
 #engn("Blessed are You, HaShem our God, Source of all being: You have made us holy with Your mitzvot and taken delight in us. In love and favor You have given us Your holy Shabbat as an inheritance — a remembrance of the work of creation. It is the first of our sacred days, a reminder of our going-out from Egypt. You chose us from among all peoples and made us holy, and in love and favor You have given us Your holy Shabbat. Blessed are You, who makes Shabbat holy.",
   [Kiddush means "sanctification": we do not merely welcome Shabbat — we declare it holy, aloud, over a full cup; the Sages taught to remember Shabbat over wine (Pesachim 106a). Its blessing binds the two reasons the Torah gives for Shabbat — a remembrance of creation, and a reminder of the Exodus: the world made, and a people set free. And "chose us"? Many of us have flinched at it; we hear it not as rank but as task — every people is chosen for something, and this is ours: to keep this day.])

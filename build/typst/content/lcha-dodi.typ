@@ -1,14 +1,14 @@
 #import "../book.typ": *
 #startprayer("L’cha Dodi", "לְכָה דוֹדִי", newpage: true)
 
-#stanza("L’cha dodi likrat kalá, p’nei Shabbat n’kab’lá.",
+#stanza("L’chá dodí likrát kalá, p’nei Shabbat n’kab’lá.",
   "לְכָה דוֹדִי לִקְרַאת כַּלָּה, פְּנֵי שַׁבָּת נְקַבְּלָה.", label:"Refrain")
 
-#stanza("Shamor v’zachór b’dibur echád, hishmi’ánu El ham’yuchád. Adonai echád ush’mó echád, l’shem ul’tif’éret v’lit’hilá.",
+#stanza("Shamór v’zachór b’dibúr echád, hishmi’ánu El ham’yuchád. Adonai echád ushmó echád, l’shem ultif’éret v’lit’hilá.",
   "שָׁמוֹר וְזָכוֹר בְּדִבּוּר אֶחָד, הִשְׁמִיעָנוּ אֵל הַמְיוּחָד. יְיָ אֶחָד וּשְׁמוֹ אֶחָד, לְשֵׁם וּלְתִפְאֶרֶת וְלִתְהִלָּה.", label:"1 · Shamor v’zachor")
 #rubric([(refrain)])
 
-#stanza("Likrat Shabbat l’chu v’neil’chá, ki hi m’kor hab’rachá. Merosh mikédem n’suchá, sof ma’asé b’machashavá t’chilá.",
+#stanza("Likrát Shabbat l’chu v’neil’chá, ki hi m’kór hab’rachá. Merósh mikédem n’suchá, sof ma’asé b’machashavá t’chilá.",
   "לִקְרַאת שַׁבָּת לְכוּ וְנֵלְכָה, כִּי הִיא מְקוֹר הַבְּרָכָה. מֵרֹאשׁ מִקֶּדֶם נְסוּכָה, סוֹף מַעֲשֶׂה בְּמַחֲשָׁבָה תְּחִלָּה.", label:"2 · Likrat Shabbat")
 #rubric([(refrain)])
 
@@ -17,12 +17,12 @@
 #rubric([(refrain)])
 
 #stanza("Hitna’arí me’afár kúmi, livshí bigdei tif’artéch amí. Al yad ben Yishái beit halachmí, korvá el nafshí g’alá.",
-  "הִתְנַעֲרִי מֵעָפָר קוּמִי, לִבְשִׁי בִּגְדֵי תִפְאַרְתֵּךְ עַמִּי. עַל יַד בֶּן יִשַּׁי בֵּית הַלַּחְמִי, קָרְבָה אֶל נַפְשִׁי גְּאָלָהּ.", label:"4 · Hitna’ari")
+  "הִתְנַעֲרִי מֵעָפָר קוּמִי, לִבְשִׁי בִּגְדֵי תִפְאַרְתֵּךְ עַמִּי. עַל יַד בֶּן יִשַּׁי בֵּית הַלַּחְמִי, קָרְבָה אֶל נַפְשִׁי גְאָלָהּ.", label:"4 · Hitna’ari")
 #rubric([(refrain)])
 
 #stanza("Hit’or’rí, hit’or’rí, ki va oréch kúmi óri. Úri úri shir dabéri, k’vod Adonai aláyich niglá.",
   "הִתְעוֹרְרִי, הִתְעוֹרְרִי, כִּי בָא אוֹרֵךְ קוּמִי אוֹרִי. עוּרִי עוּרִי שִׁיר דַּבֵּרִי, כְּבוֹד יְיָ עָלַיִךְ נִגְלָה.", label:"5 · Hit’or’rí")
-#rubric([(refrain — L’cha dodi likrat kalá, p’nei Shabbat n’kab’lá)])
+#rubric([(refrain — L’chá dodí likrát kalá, p’nei Shabbat n’kab’lá)])
 
 #stanza("Lo tevóshi v’lo tikal’mí, ma tishtochachí uma tehemí. Bach yechesú aniyei amí, v’nivn’tá ir al tilá.",
   "לֹא תֵבוֹשִׁי וְלֹא תִכָּלְמִי, מַה תִּשְׁתּוֹחֲחִי וּמַה תֶּהֱמִי. בָּךְ יֶחֱסוּ עֲנִיֵּי עַמִּי, וְנִבְנְתָה עִיר עַל תִּלָּהּ.", label:"6 · Lo tevoshi")
@@ -37,7 +37,7 @@
 #rubric([(refrain)])
 
 #ritual([some bow to greet Shabbat the bride])
-#stanza("Bó’i v’shalóm atéret ba’lá, gam b’simchá uv’tzoholá. Toch emunei am s’gulá, bó’i chalá, bó’i chalá, bó’i chalá Shabbat malk’tá.",
+#stanza("Bó’i v’shalóm atéret ba’lá, gam b’simchá uvtzoholá. Toch emunei am s’gulá, bó’i chalá, bó’i chalá, bó’i chalá Shabbat malk’tá.",
   "בּוֹאִי בְשָׁלוֹם עֲטֶרֶת בַּעְלָהּ, גַּם בְּשִׂמְחָה וּבְצָהֳלָה. תּוֹךְ אֱמוּנֵי עַם סְגֻלָּה, בּוֹאִי כַלָּה, בּוֹאִי כַלָּה, בּוֹאִי כַלָּה שַׁבָּת מַלְכְּתָא.", label:"9 · Bo’i v’shalom")
 #rubric([(refrain)])
 

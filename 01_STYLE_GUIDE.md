@@ -44,7 +44,7 @@ from the existing ones. When in doubt, reread the draft sections, then imitate.
 
 - Fully pointed (with nikud) throughout; the divine name is set as **יְיָ** (SETTLED, superseding the draft's יְהוָה).
 - Source: Sefaria via MCP; record the ref (e.g., `Psalms 96`) in the content file frontmatter.
-- Maqaf, sof pasuq, and cantillation: no ta'amim; keep maqaf as Sefaria gives it.
+- Maqaf, sof pasuq, and cantillation: ta'amim on chanted biblical verses only (the Sh'ma line, V'ahavta & tzitzit, the Mi Chamocha verses, V'shamru, the standalone Vayechulu and the Kiddush Vayechulu, Birkat Kohanim); everywhere else, none — the Vayechulu embedded in the silent Amidah stays plain. Keep maqaf as Sefaria gives it.
 - Any deliberate deviation from the traditional text (e.g., imahot in the Amidah) is flagged in the content file with a `variant:` note.
 
 ## Transliteration conventions (match the draft)
