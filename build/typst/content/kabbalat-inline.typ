@@ -30,13 +30,13 @@
 
 // ===================== SHALOM ALEICHEM =====================
 #startprayer("Shalom Aleichem", "שָׁלוֹם עֲלֵיכֶם", newpage: true)
-#stanza("Shalóm aléichem, malachéi hasharét, malachéi elyón, mimélech malchei ham’lachím, haKadósh barúch hu.",
+#stanza("Shalóm aléichem, malachéi hasharét, malachéi elyón, mimélech malchéi ham’lachím, haKadósh barúch hu.",
   "שָׁלוֹם עֲלֵיכֶם מַלְאֲכֵי הַשָּׁרֵת, מַלְאֲכֵי עֶלְיוֹן, מִמֶּלֶךְ מַלְכֵי הַמְּלָכִים הַקָּדוֹשׁ בָּרוּךְ הוּא.", label:"The traditional text")
-#stanza("Bo’achém l’shalóm, malachéi hashalóm, malachéi elyón, mimélech malchei ham’lachím, haKadósh barúch hu.",
+#stanza("Bo’achém l’shalóm, malachéi hashalóm, malachéi elyón, mimélech malchéi ham’lachím, haKadósh barúch hu.",
   "בּוֹאֲכֶם לְשָׁלוֹם מַלְאֲכֵי הַשָּׁלוֹם, מַלְאֲכֵי עֶלְיוֹן, מִמֶּלֶךְ מַלְכֵי הַמְּלָכִים הַקָּדוֹשׁ בָּרוּךְ הוּא.")
-#stanza("Barchúni l’shalóm, malachéi hashalóm, malachéi elyón, mimélech malchei ham’lachím, haKadósh barúch hu.",
+#stanza("Barchúni l’shalóm, malachéi hashalóm, malachéi elyón, mimélech malchéi ham’lachím, haKadósh barúch hu.",
   "בָּרְכוּנִי לְשָׁלוֹם מַלְאֲכֵי הַשָּׁלוֹם, מַלְאֲכֵי עֶלְיוֹן, מִמֶּלֶךְ מַלְכֵי הַמְּלָכִים הַקָּדוֹשׁ בָּרוּךְ הוּא.")
-#stanza("Tzet’chém l’shalóm, malachéi hashalóm, malachéi elyón, mimélech malchei ham’lachím, haKadósh barúch hu.",
+#stanza("Tzet’chém l’shalóm, malachéi hashalóm, malachéi elyón, mimélech malchéi ham’lachím, haKadósh barúch hu.",
   "צֵאתְכֶם לְשָׁלוֹם מַלְאֲכֵי הַשָּׁלוֹם, מַלְאֲכֵי עֶלְיוֹן, מִמֶּלֶךְ מַלְכֵי הַמְּלָכִים הַקָּדוֹשׁ בָּרוּךְ הוּא.")
 #rubric([Each verse is sung three times.])
 #v(9pt)
