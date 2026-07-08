@@ -93,3 +93,4 @@
 #v(8pt)
 #include "content/seasonal-insertions.typ"
 #include "content/kiddush.typ"
+#include "content/colophon.typ"
