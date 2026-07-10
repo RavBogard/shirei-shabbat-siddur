@@ -1,0 +1,11 @@
+[
+  {
+    "slug": "shabbat-maariv",
+    "entry": "typst/shirei-shabbat-FULL.typ",
+    "pdf": "shirei-shabbat.pdf",
+    "title": "Shirei Shabbat",
+    "title_he": "שִׁירֵי שַׁבָּת",
+    "blurb": "A complete, sung Friday-night siddur — Kabbalat Shabbat & Ma'ariv — from Central Reform Congregation, St. Louis.",
+    "tag_prefix": "shabbat"
+  }
+]

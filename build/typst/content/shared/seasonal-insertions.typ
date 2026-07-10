@@ -1,0 +1,144 @@
+#import "../../book.typ": *
+
+#rubric([The everyday Friday-night pages stay clean. These are the words we add when the calendar calls for them — we add each where the small ✦ mark appears in the service.])
+
+// ============================================================
+// 1 · YA’ALEH V’YAVO  (Rosh Chodesh & festivals)
+// Source: Siddur Ashkenaz, adapted — zichron mashiach ben David not printed (logged, DECISIONS-LOG 2026-07-08)
+// ============================================================
+#rubric([On Rosh Chodesh and the intermediate days of festivals, add in the Amidah:])
+#startprayer("Rise and Come", "יַעֲלֶה וְיָבֹא", sec: "Seasonal & Kiddush")
+#stanza("Eloheinu ve’lohei avoteinu v’imoteinu, ya’aleh v’yavo v’yagi’a v’yeraeh v’yeratzeh v’yishama v’yipaked v’yizacher zichronenu ufikdonenu, v’zichron avoteinu v’imoteinu, v’zichron Y’rushalayim ir kodshecha, v’zichron kol am’cha beit Yisra’el l’fanecha,",
+  "אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ וְאִמּוֹתֵינוּ, יַעֲלֶה וְיָבֹא וְיַגִּיעַ וְיֵרָאֶה וְיֵרָצֶה וְיִשָּׁמַע וְיִפָּקֵד וְיִזָּכֵר זִכְרוֹנֵנוּ וּפִקְדוֹנֵנוּ, וְזִכְרוֹן אֲבוֹתֵינוּ וְאִמּוֹתֵינוּ, וְזִכְרוֹן יְרוּשָׁלַיִם עִיר קָדְשֶׁךָ, וְזִכְרוֹן כָּל עַמְּךָ בֵּית יִשְׂרָאֵל לְפָנֶיךָ,")
+#stanza("lifleita l’tova l’chen ulchesed ulrachamim, l’chayim ulshalom b’yom",
+  "לִפְלֵיטָה לְטוֹבָה לְחֵן וּלְחֶסֶד וּלְרַחֲמִים, לְחַיִּים וּלְשָׁלוֹם בְּיוֹם")
+#stanza("Rosh haChodesh haze / Chag haMatzot haze / Chag haSukot haze.",
+  "רֹאשׁ הַחֹדֶשׁ הַזֶּה / חַג הַמַּצּוֹת הַזֶּה / חַג הַסֻּכּוֹת הַזֶּה.", label: "name the day")
+#stanza("Zochrenu Adonai Eloheinu bo l’tova, ufokdenu vo livracha, v’hoshi’enu vo l’chayim. Uvidvar y’shu’a v’rachamim chus v’chonenu, v’rachem aleinu v’hoshi’enu, ki eilecha eineinu, ki El melech chanun v’rachum ata.",
+  "זָכְרֵנוּ יְיָ אֱלֹהֵינוּ בּוֹ לְטוֹבָה, וּפָקְדֵנוּ בוֹ לִבְרָכָה, וְהוֹשִׁיעֵנוּ בוֹ לְחַיִּים. וּבִדְבַר יְשׁוּעָה וְרַחֲמִים חוּס וְחָנֵּנוּ, וְרַחֵם עָלֵינוּ וְהוֹשִׁיעֵנוּ, כִּי אֵלֶיךָ עֵינֵינוּ, כִּי אֵל מֶלֶךְ חַנּוּן וְרַחוּם אָתָּה.")
+#eng("Our God and God of our fathers and mothers — may the memory of us rise and come and reach You; be seen, accepted, and heard; be counted and remembered — the memory of us and of our ancestors, the memory of Jerusalem Your holy city, and the memory of all Your people the house of Israel — for deliverance and goodness, for grace, kindness, and compassion, for life and for peace, on this day of the New Moon / the Festival of Matzot / the Festival of Sukkot.")
+#engn("Remember us this day, O Source, our God, for goodness; count us on it for blessing; save us on it for life. With a word of rescue and mercy, spare us and be gracious to us; have compassion on us and save us — for our eyes are turned to You, for You are a gracious and compassionate God and Sovereign.",
+  [#emph[Ya’aleh v’yavo] — "rise and come" — is inserted into the fifth blessing of the Amidah (the Avodah) on Rosh Chodesh and the intermediate days of festivals. (On a festival evening that itself falls on Shabbat, the Amidah’s middle blessing changes instead, and the community prays it from a festival supplement.) Its cascade of eight verbs asking to be "remembered" gives the prayer its character: on the days that mark sacred time, we ask that our own small lives be held in mind.])
+
+// ============================================================
+// 2 · AL HANISIM — HANUKKAH
+// Source: Siddur Ashkenaz, Weekday, Shacharit, Amidah, Thanksgiving 7 (Metsudah, 1981)
+// ============================================================
+#rubric([On Hanukkah, add in the Modim (Thanksgiving) blessing:])
+#startprayer("For the Miracles", "עַל הַנִּסִּים", sec: "Seasonal & Kiddush")
+#stanza("Al hanisim v’al hapurkan v’al hag’vurot v’al hat’shu’ot v’al hanifla’ot she’asita la’avoteinu v’imoteinu bayamim hahem baz’man haze.",
+  "עַל הַנִּסִּים וְעַל הַפֻּרְקָן וְעַל הַגְּבוּרוֹת וְעַל הַתְּשׁוּעוֹת וְעַל הַנִּפְלָאוֹת שֶׁעָשִׂיתָ לַאֲבוֹתֵינוּ וְאִמּוֹתֵינוּ בַּיָּמִים הָהֵם בַּזְּמַן הַזֶּה.", label: "opening — said also on Purim")
+#stanza("Bimei Matityahu ben Yochanan Kohen Gadol Chashmona’i uvanav, k’she’am’da malchut Yavan har’sha’a al am’cha Yisra’el l’hashkicham toratecha, ulha’aviram mechukei r’tzonecha,",
+  "בִּימֵי מַתִּתְיָהוּ בֶּן יוֹחָנָן כֹּהֵן גָּדוֹל חַשְׁמוֹנָאִי וּבָנָיו, כְּשֶׁעָמְדָה מַלְכוּת יָוָן הָרְשָׁעָה עַל עַמְּךָ יִשְׂרָאֵל לְהַשְׁכִּיחָם תּוֹרָתֶךָ, וּלְהַעֲבִירָם מֵחֻקֵּי רְצוֹנֶךָ,")
+#stanza("v’ata b’rachameicha harabim amadeta lahem b’et tzaratam, raveta et rivam, danta et dinam, nakamta et nikmatam, masarta giborim b’yad chalashim, v’rabim b’yad m’atim, ut’me’im b’yad t’horim, ursha’im b’yad tzadikim, v’zeidim b’yad os’kei toratecha.",
+  "וְאַתָּה בְּרַחֲמֶיךָ הָרַבִּים עָמַדְתָּ לָהֶם בְּעֵת צָרָתָם, רַבְתָּ אֶת רִיבָם, דַּנְתָּ אֶת דִּינָם, נָקַמְתָּ אֶת נִקְמָתָם, מָסַרְתָּ גִבּוֹרִים בְּיַד חַלָּשִׁים, וְרַבִּים בְּיַד מְעַטִּים, וּטְמֵאִים בְּיַד טְהוֹרִים, וּרְשָׁעִים בְּיַד צַדִּיקִים, וְזֵדִים בְּיַד עוֹסְקֵי תוֹרָתֶךָ.")
+#stanza("Ulcha asita shem gadol v’kadosh b’olamecha, ulam’cha Yisra’el asita t’shu’a g’dola ufurkan k’hayom haze. V’achar ken ba’u vanecha lidvir beitecha, ufinu et heichalecha, v’tiharu et mikdashecha, v’hidliku nerot b’chatzrot kodshecha, v’kav’u sh’monat y’mei Chanuka eilu, l’hodot ulhalel l’shimcha hagadol.",
+  "וּלְךָ עָשִׂיתָ שֵׁם גָּדוֹל וְקָדוֹשׁ בְּעוֹלָמֶךָ, וּלְעַמְּךָ יִשְׂרָאֵל עָשִׂיתָ תְּשׁוּעָה גְדוֹלָה וּפֻרְקָן כְּהַיּוֹם הַזֶּה. וְאַחַר כֵּן בָּאוּ בָנֶיךָ לִדְבִיר בֵּיתֶךָ, וּפִנּוּ אֶת הֵיכָלֶךָ, וְטִהֲרוּ אֶת מִקְדָּשֶׁךָ, וְהִדְלִיקוּ נֵרוֹת בְּחַצְרוֹת קָדְשֶׁךָ, וְקָבְעוּ שְׁמוֹנַת יְמֵי חֲנֻכָּה אֵלּוּ, לְהוֹדוֹת וּלְהַלֵּל לְשִׁמְךָ הַגָּדוֹל.")
+#eng("For the miracles and the rescue, for the mighty acts, the deliverances, and the wonders that You did for our fathers and mothers in those days, at this season:")
+#eng("In the days of Mattathias son of Yochanan, the High Priest, the Hasmonean, and his sons — when a wicked empire rose against Your people Israel to make them forget Your Torah and turn them from the laws of Your will — You in Your great mercy stood by them in their time of trouble. You took up their cause, judged their claim, and answered their wrong; You gave the strong into the hands of the weak, the many into the hands of the few, the impure into the hands of the pure, the guilty into the hands of the innocent, and the arrogant into the hands of those who kept Your Torah.")
+#engn("For Yourself You made a great and holy name in Your world, and for Your people Israel You worked a great deliverance and rescue, as on this very day. Afterward Your children came into Your sanctuary, cleared Your Temple, purified Your holy place, and kindled lights in Your sacred courts — and they set these eight days of Hanukkah to give thanks and praise to Your great name.",
+  [#emph[Al hanisim] thanks God not for the cruse of oil — a later legend from the Talmud (Shabbat 21b) — but for the deliverance itself: "the many into the hands of the few." The prayer is a window onto the oldest meaning of Hanukkah, a victory of the vulnerable, retold every winter in the middle of the gratitude blessing.])
+
+// ============================================================
+// 3 · AL HANISIM — PURIM
+// Source: Siddur Ashkenaz, Weekday, Shacharit, Amidah, Thanksgiving 8 (Metsudah, 1981)
+// ============================================================
+#rubric([On Purim, add in the Modim (Thanksgiving) blessing — beginning with the same "Al hanisim" opening above, then:])
+#startprayer("In the Days of Mordechai", "בִּימֵי מָרְדְּכַי", sec: "Seasonal & Kiddush")
+#stanza("Bimei Mord’chai v’Ester b’Shushan habira, k’she’amad aleihem Haman harasha, bikesh l’hashmid laharog ulabed et kol haY’hudim, mina’ar v’ad zaken, taf v’nashim, b’yom echad, bishlosha asar l’chodesh sh’neim asar, hu chodesh Adar, ushlalam lavoz.",
+  "בִּימֵי מָרְדְּכַי וְאֶסְתֵּר בְּשׁוּשַׁן הַבִּירָה, כְּשֶׁעָמַד עֲלֵיהֶם הָמָן הָרָשָׁע, בִּקֵּשׁ לְהַשְׁמִיד לַהֲרוֹג וּלְאַבֵּד אֶת כָּל הַיְּהוּדִים, מִנַּעַר וְעַד זָקֵן, טַף וְנָשִׁים, בְּיוֹם אֶחָד, בִּשְׁלוֹשָׁה עָשָׂר לְחֹדֶשׁ שְׁנֵים עָשָׂר, הוּא חֹדֶשׁ אֲדָר, וּשְׁלָלָם לָבוֹז.")
+#stanza("V’ata b’rachameicha harabim hefarta et atzato, v’kilkalta et machashavto, vahashevota lo g’mulo b’rosho, v’talu oto v’et banav al ha’etz.",
+  "וְאַתָּה בְּרַחֲמֶיךָ הָרַבִּים הֵפַרְתָּ אֶת עֲצָתוֹ, וְקִלְקַלְתָּ אֶת מַחֲשַׁבְתּוֹ, וַהֲשֵׁבוֹתָ לּוֹ גְּמוּלוֹ בְּרֹאשׁוֹ, וְתָלוּ אוֹתוֹ וְאֶת בָּנָיו עַל הָעֵץ.")
+#eng("In the days of Mordechai and Esther, in Shushan the capital, when the wicked Haman rose against them and sought to destroy, to kill, and to wipe out all the Jews — young and old, children and women — in a single day, the thirteenth of the twelfth month, the month of Adar, and to plunder their possessions:")
+#engn("You in Your great mercy overturned his plan, spoiled his scheme, and turned his own design back upon his head — and he and his sons were hanged upon the gallows.",
+  [The Purim version of #emph[Al hanisim] tells the whole Esther story in two sentences. Unlike the Hanukkah insertion, it names no priests and no Temple — only a threatened people and a reversal of fortune, the #emph[v’nahafoch hu] ("it was overturned") that is the heart of the holiday. The reversal turns on a woman’s risk — Esther’s "if I perish, I perish" — though the prayer names her only in its dateline.])
+
+// ============================================================
+// 4 · THE TEN DAYS OF REPENTANCE (Aseret Y’mei Teshuvah)
+// Sources: Siddur Ashkenaz, Shabbat Maariv Amidah — Patriarchs 3, Divine Might 4,
+//   Thanksgiving 6, Peace 2 (Metsudah, 1981)
+// ============================================================
+#rubric([From Rosh Hashanah through Yom Kippur, four short lines are added to the Amidah, and one of its seals changes (a second changes only in the weekday Amidah). Insert each line where noted.])
+#startprayer("Remember Us for Life", "זָכְרֵנוּ לְחַיִּים", sec: "Seasonal & Kiddush")
+
+#rubric([Into the first blessing (Avot v’Imahot), after "…for the sake of Your name in love":])
+#stanza("Zochrenu l’chayim, melech chafetz bachayim, v’chotvenu b’sefer hachayim, l’ma’ancha Elohim chayim.",
+  "זָכְרֵנוּ לְחַיִּים, מֶלֶךְ חָפֵץ בַּחַיִּים, וְכָתְבֵנוּ בְּסֵפֶר הַחַיִּים, לְמַעַנְךָ אֱלֹהִים חַיִּים.")
+#eng("Remember us for life, You who delight in life, and write us in the Book of Life — for Your own sake, living God.")
+
+#rubric([Into the second blessing (G’vurot), after "…and makes rescue blossom":])
+#stanza("Mi chamocha av harachamim, zocher y’tzurav l’chayim b’rachamim.",
+  "מִי כָמוֹךָ אַב הָרַחֲמִים, זוֹכֵר יְצוּרָיו לְחַיִּים בְּרַחֲמִים.")
+#eng("Who is like You, Source of mercy, who in compassion remembers Your creatures for life?")
+
+#rubric([Into the Modim (Thanksgiving) blessing, near its close:])
+#stanza("Uch’tov l’chayim tovim kol b’nei v’ritecha.",
+  "וּכְתוֹב לְחַיִּים טוֹבִים כָּל בְּנֵי בְרִיתֶךָ.")
+#eng("And write down for a good life all the children of Your covenant.")
+
+#rubric([Into the final blessing (Shalom), just before its closing seal:])
+#stanza("B’sefer chayim b’racha v’shalom ufarnasa tova, nizacher v’nikatev l’fanecha, anachnu v’chol am’cha beit Yisra’el, l’chayim tovim ulshalom.",
+  "בְּסֵפֶר חַיִּים בְּרָכָה וְשָׁלוֹם וּפַרְנָסָה טוֹבָה, נִזָּכֵר וְנִכָּתֵב לְפָנֶיךָ, אֲנַחְנוּ וְכָל עַמְּךָ בֵּית יִשְׂרָאֵל, לְחַיִּים טוֹבִים וּלְשָׁלוֹם.")
+#eng("In the Book of Life, blessing, and peace, and of good sustenance, may we be remembered and inscribed before You — we and all Your people the house of Israel — for a good life and for peace.")
+
+#rubric([Two seals also change during these days. In the third blessing, the words #emph[ha’El hakadosh] ("the holy God") become:])
+#stanza("Baruch ata Adonai, haMelech hakadosh.",
+  "בָּרוּךְ אַתָּה יְיָ, הַמֶּלֶךְ הַקָּדוֹשׁ.", label: "the Holy Sovereign")
+#rubric([And where the weekday Amidah would seal the blessing for justice, it reads #emph[haMelech hamishpat] ("the Sovereign of justice") — הַמֶּלֶךְ הַמִּשְׁפָּט.#footnote([These are the days between Rosh Hashanah and Yom Kippur, when tradition pictures the Book of Life lying open. Every insertion asks the same thing in a different key — to be remembered, inscribed, sealed for life — and the seasonal seal #emph[haMelech hakadosh] replaces "the holy God" with "the holy Sovereign," the one image of majesty the High Holy Days keep even where the rest of this siddur sets it aside.])])
+
+#rubric([One more change during these days: in every Kaddish, the phrase #emph[l’eila min kol birchata] — "beyond all blessing" — is doubled to #emph[l’eila ul’eila]:])
+#stanza("…l’eila ul’eila mikol birchata v’shirata, tushb’chata v’nechemata da’amiran b’alma…",
+  "…לְעֵלָּא וּלְעֵלָּא מִכָּל בִּרְכָתָא וְשִׁירָתָא, תֻּשְׁבְּחָתָא וְנֶחָמָתָא דַּאֲמִירָן בְּעָלְמָא…", label:"in every Kaddish")
+#engn("…far, far beyond any blessing or song, any praise or consolation we can speak…",
+  [This Kaddish change belongs to the Ten Days of Repentance only — Rosh Hashanah through Yom Kippur — not to the whole month of Elul. The doubled "l’eila l’eila" lifts the praise one degree higher for the days when the Book of Life lies open.])
+
+// ============================================================
+// 5 · COUNTING THE OMER (Sefirat HaOmer)
+// Source: Siddur Ashkenaz, Weekday, Maariv, Sefirat HaOmer (Metsudah, 1981)
+// ============================================================
+#rubric([From the second night of Pesach through the eve of Shavuot, count the Omer — one blessing, then the count of the night:])
+#startprayer("Counting the Omer", "סְפִירַת הָעֹמֶר", sec: "Seasonal & Kiddush")
+#stanza("Baruch ata Adonai, Eloheinu melech ha’olam, asher kid’shanu b’mitzvotav v’tzivanu al s’firat ha’omer.",
+  "בָּרוּךְ אַתָּה יְיָ, אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְצִוָּנוּ עַל סְפִירַת הָעֹמֶר.", label: "the blessing")
+#stanza("Hayom yom echad ba’omer.",
+  "הַיּוֹם יוֹם אֶחָד בָּעֹמֶר.", label: "the first night")
+#stanza("Hayom sh’nei yamim ba’omer. …",
+  "הַיּוֹם שְׁנֵי יָמִים בָּעֹמֶר. …", label: "the second night, and so on")
+#eng("Blessed are You, our God, Source of the universe, who makes us holy through Your mitzvot and calls us to count the Omer.")
+#engn-near("Today is the first day of the Omer. (On the second night: Today is two days of the Omer — and so through all forty-nine nights, adding weeks once seven days are reached: “…which is one week and one day of the Omer,” and onward.)",
+  [The Omer is counted aloud for forty-nine nights — seven weeks — bridging the barley harvest of Pesach to the wheat harvest and Torah of Shavuot. Counting the days by hand turns waiting into a discipline: freedom in the spring is only the beginning; it takes seven weeks of counting to be ready to receive.])
+
+// ============================================================
+// 6 · FESTIVAL KIDDUSH  (Shalosh Regalim / Yom Tov evening)
+// Source: Pesach Haggadah, Kadesh 6-8 (borei p’ri hagafen; asher bachar banu; chatimah)
+// Shabbat-conditional additions omitted for the plain festival form — see note to rabbi.
+// ============================================================
+#rubric([On a festival that falls on Shabbat — the Friday-night Kiddush over wine (begin with Vayechulu, as in the Shabbat Kiddush; the festival’s name is spoken in the marked place):])
+#startprayer("Festival Kiddush · on Shabbat", "קִדּוּשׁ לְשַׁבָּת וְיוֹם טוֹב", sec: "Seasonal & Kiddush")
+#stanza("Baruch ata Adonai, Eloheinu melech ha’olam, borei p’ri hagafen.",
+  "בָּרוּךְ אַתָּה יְיָ, אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, בּוֹרֵא פְּרִי הַגָּפֶן.", label: "over the wine")
+#stanza("Baruch ata Adonai, Eloheinu melech ha’olam, asher bachar banu mikol am, v’rom’manu mikol lashon, v’kid’shanu b’mitzvotav. Vatiten lanu Adonai Eloheinu b’ahava shabbatot limnucha umo’adim l’simcha, chagim uzmanim l’sason, et yom haShabbat haze v’et yom",
+  "בָּרוּךְ אַתָּה יְיָ, אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר בָּחַר בָּנוּ מִכָּל עָם, וְרוֹמְמָנוּ מִכָּל לָשׁוֹן, וְקִדְּשָׁנוּ בְּמִצְוֹתָיו. וַתִּתֶּן לָנוּ יְיָ אֱלֹהֵינוּ בְּאַהֲבָה שַׁבָּתוֹת לִמְנוּחָה וּמוֹעֲדִים לְשִׂמְחָה, חַגִּים וּזְמַנִּים לְשָׂשׂוֹן, אֶת יוֹם הַשַּׁבָּת הַזֶּה וְאֶת יוֹם")
+#stanza("Chag haMatzot haze, z’man cheroteinu / Chag haShavu’ot haze, z’man matan torateinu / Chag haSukot haze, z’man simchatenu,",
+  "חַג הַמַּצּוֹת הַזֶּה, זְמַן חֵרוּתֵנוּ / חַג הַשָּׁבוּעוֹת הַזֶּה, זְמַן מַתַּן תּוֹרָתֵנוּ / חַג הַסֻּכּוֹת הַזֶּה, זְמַן שִׂמְחָתֵנוּ,", label: "name the festival")
+#stanza("b’ahava mikra kodesh, zecher litzi’at Mitzrayim. Ki vanu vacharta v’otanu kidashta mikol ha’amim, v’Shabbat umo’adei kodshecha b’ahava uv’ratzon b’simcha uvsason hinchaltanu.",
+  "בְּאַהֲבָה מִקְרָא קֹדֶשׁ, זֵכֶר לִיצִיאַת מִצְרָיִם. כִּי בָנוּ בָחַרְתָּ וְאוֹתָנוּ קִדַּשְׁתָּ מִכָּל הָעַמִּים, וְשַׁבָּת וּמוֹעֲדֵי קָדְשֶׁךָ בְּאַהֲבָה וּבְרָצוֹן בְּשִׂמְחָה וּבְשָׂשׂוֹן הִנְחַלְתָּנוּ.")
+#chatimah("Baruch ata Adonai, m’kadesh haShabbat v’Yisra’el v’hazmanim.",
+  "בָּרוּךְ אַתָּה יְיָ, מְקַדֵּשׁ הַשַּׁבָּת וְיִשְׂרָאֵל וְהַזְּמַנִּים.")
+#eng("Blessed are You, our God, Source of the universe, who creates the fruit of the vine.")
+#eng("Blessed are You, our God, Source of the universe, who chose us from among all peoples, lifted us up above every tongue, and made us holy through Your mitzvot. In love You gave us, O Source, our God, Shabbatot for rest and seasons for gladness, festivals and set times for joy — this Shabbat, and this day of the Festival of Matzot, the season of our freedom / this day of the Festival of Shavuot, the season of the giving of our Torah / this day of the Festival of Sukkot, the season of our rejoicing — a sacred gathering, a remembrance of the going-out from Egypt. For You chose us and made us holy from among all peoples, and gave us Your holy Shabbat and festivals, in love and favor, in gladness and joy, as our inheritance.")
+#engn-near("Blessed are You, who makes Shabbat, Israel, and the seasons holy.",
+  [When a festival falls on Shabbat, the Kiddush weaves the two together and seals "who makes Shabbat, Israel, and the seasons holy." The tradition (Pesachim 117b) marks the difference between them — Shabbat’s holiness is fixed in creation, while the festivals depend on Israel setting the calendar; here both are joined in one cup.])
+
+// ============================================================
+// 7 · SHEHECHEYANU  (v8 H5: added — festival firsts & joyful thresholds)
+// Source: Pesach Haggadah, Kadesh 12 (Sefaria-verified 2026-07-07)
+// ============================================================
+#rubric([On the first night of a festival, and at joyful firsts — a new season, a milestone, a beginning — we add the Shehecheyanu:])
+// (2026-07-07 re-pagination) newpage: keeps the blessing and its translation
+// together on one page instead of splitting across a physical page turn.
+#startprayer("Shehecheyanu · For Reaching This Moment", "שֶׁהֶחֱיָנוּ", sec: "Seasonal & Kiddush", newpage: true)
+#stanza("Baruch ata Adonai, Eloheinu melech ha’olam, shehecheyanu v’kiy’manu v’higi’anu lazman haze.",
+  "בָּרוּךְ אַתָּה יְיָ, אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, שֶׁהֶחֱיָנוּ וְקִיְּמָנוּ וְהִגִּיעָנוּ לַזְּמַן הַזֶּה.", label: "the blessing")
+#engn-near("Blessed are You, our God, Source of all being, who has kept us alive, sustained us, and brought us to this moment.",
+  [The simplest and most portable of blessings — said at first fruits and new clothes, at reunions and beginnings, on the first night of a festival, at a naming or a wedding. It thanks God not for what we have but for having arrived: alive, still here, and standing at a threshold.])

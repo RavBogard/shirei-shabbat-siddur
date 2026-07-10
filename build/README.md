@@ -21,7 +21,36 @@ Editing rules of thumb (each earned the hard way — see also FORK-YOUR-OWN.md �
 3. **One agent at a time in `typst/content/`** — the concurrency ban stands; git makes
    violations detectable, not safe.
 4. **`bash build/check.sh` before declaring any edit wave done.**
+   On Daniel's Windows machine the vendored typst is Linux-only — Code runs the gate
+   through WSL: `wsl -e bash -c 'cd /mnt/c/Users/dsbog/shireishabbat && bash build/check.sh'`.
+   Session-start habit for the committing surface: `git fsck --no-dangling` (seconds;
+   the July-7 index corruption would have been caught before a repair commit was needed).
 5. Page spot-checks: `/tmp/typst-bin/typst compile --font-path build/fonts --format png --ppi 100 typst/shirei-shabbat-FULL.typ "/tmp/out-{p}.png"` then view the relevant pages only.
+
+### Volumes, CI matrix, and release tags (AR-5, 2026-07-09)
+
+The set of books this repo builds is declared **once** in `build/volumes.json` — one
+object per volume (`slug`, build-relative `entry`, output `pdf`, `title`/`title_he`,
+`blurb`, `tag_prefix`). Everything fans out over it:
+
+- **`build/check.sh`** compiles every volume in the list, printing per-volume page
+  count + wall-clock. Adding a book = one JSON entry; no script edit.
+- **`.github/workflows/build-siddur.yml`** reads `volumes.json` in a `volumes` job and
+  runs `build` / `pages` / `release` as a matrix over it. Pages publishes a multi-book
+  landing page (one card per volume); artifacts are named `<slug>-<sha>`.
+- **Release tags are book-scoped: `<tag_prefix>-v<version>`** (e.g. `shabbat-v1.1`).
+  The tag's prefix (everything before `-v`) selects the volume via its `tag_prefix`
+  field; the release PDF is named `<Title>-<tag>.pdf`. (This supersedes the old
+  bare `v*` tag scheme — a plain `v1.2` no longer triggers a release.)
+- **`publish-kit/build-siddur.yml` must stay identical to the live workflow.** The
+  scaling audit flagged it as a drifting duplicate; it is now a verbatim copy. If you
+  change the live workflow, `cp .github/workflows/build-siddur.yml publish-kit/` in the
+  same commit. (`publish-kit/`'s other files are the curated public snapshot, synced
+  separately — Code-only — and are NOT auto-tracked.)
+
+> Note: the GitHub Action (matrix, Pages, Releases) can only be exercised on a real
+> push — `check.sh` verifies the compile locally, but the CI wiring is confirmed by
+> the first push that runs it.
 
 ---
 

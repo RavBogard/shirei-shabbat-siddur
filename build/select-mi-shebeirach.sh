@@ -3,8 +3,8 @@
 # licensed setting when present, else the committed public placeholder.
 set -euo pipefail
 cd "$(dirname "$0")"
-if [ -f typst/content/mi-shebeirach-local.typ ]; then
-  printf '#include "mi-shebeirach-local.typ"\n' > typst/content/mi-shebeirach.typ
+if [ -f typst/content/shared/mi-shebeirach-local.typ ]; then
+  printf '#include "mi-shebeirach-local.typ"\n' > typst/content/shared/mi-shebeirach.typ
 else
-  printf '#include "mi-shebeirach-placeholder.typ"\n' > typst/content/mi-shebeirach.typ
+  printf '#include "mi-shebeirach-placeholder.typ"\n' > typst/content/shared/mi-shebeirach.typ
 fi
