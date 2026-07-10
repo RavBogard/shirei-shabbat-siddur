@@ -16,7 +16,7 @@ def crop_overlay(x, y, w, h):
         c.line(cx+dx*g, cy, cx+dx*(g+m), cy)
         c.line(cx, cy+dy*g, cx, cy+dy*(g+m))
     c.setFont("Helvetica", 7); c.setFillColorRGB(0.5,0.5,0.5)
-    c.drawString(x, y-26, f"Shirei Shabbat draft — trim {w/72:.0f}×{h/72:.0f} in — print double-sided at 100% (actual size), cut on the marks")
+    c.drawString(x, y-26, f"Shirei Shabbat — trim {w/72:.0f}×{h/72:.0f} in — print double-sided (flip on long edge) at 100% (actual size), cut on the marks")
     c.save(); buf.seek(0)
     return PdfReader(buf).pages[0]
 

@@ -52,6 +52,27 @@ object per volume (`slug`, build-relative `entry`, output `pdf`, `title`/`title_
 > push — `check.sh` verifies the compile locally, but the CI wiring is confirmed by
 > the first push that runs it.
 
+### Distribution forms — one command (2026-07-10)
+
+Every volume ships in **two forms**, produced by one command:
+
+```bash
+bash build/build-pdfs.sh   # → dist/<pdf> (screen 7×10) + dist/<pdf>-print-letter.pdf (US Letter + crop marks)
+```
+
+- **screen** — the true-trim PDF from Typst, for reading / a print shop.
+- **letter** — that PDF centered on US Letter with corner crop marks and a duplex
+  caption, for double-sided home printing (`build/impose_letter.py`; trim is read
+  from each page's mediabox, so it is volume-agnostic; centered ⇒ front/back align
+  for cutting).
+
+The Letter filename is **derived** — `<pdf>` → `<pdf-without-.pdf>-print-letter.pdf`
+— so `volumes.json` stays a minimal one-line-per-book registry. `build-pdfs.sh` is
+what CI runs (build → artifact, pages → landing-page buttons, release → both
+attached); `check.sh` remains the fast integrity gate. Imposition needs `pypdf` +
+`reportlab` (auto-installed); the Typst compile itself stays vendored/zero-network.
+Design spec: `docs/superpowers/specs/2026-07-10-multi-form-pdf-build-design.md`.
+
 ---
 
 ## RETIRED pipeline (kept for the record)

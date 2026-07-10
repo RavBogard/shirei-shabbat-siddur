@@ -69,19 +69,25 @@ jobs:
       - name: Integrity gate (build/check.sh)
         run: bash build/check.sh
 
-      - name: Compile ${{ matrix.volume.slug }}
+      - name: Imposition tooling (publish-support; the Typst compile stays zero-network)
+        run: python3 -m pip install --quiet pypdf reportlab
+
+      - name: Build every form of ${{ matrix.volume.slug }}
         run: |
+          mkdir -p dist
+          pdf="${{ matrix.volume.pdf }}"
           /tmp/typst-bin/typst compile --font-path build/fonts \
-            "build/${{ matrix.volume.entry }}" "${{ matrix.volume.pdf }}"
+            "build/${{ matrix.volume.entry }}" "dist/$pdf"
+          python3 build/impose_letter.py "dist/$pdf" "dist/${pdf%.pdf}-print-letter.pdf"
 
       - name: Short SHA for the artifact name
         run: echo "SHORT_SHA=${GITHUB_SHA::7}" >> "$GITHUB_ENV"
 
-      - name: Upload PDF artifact
+      - name: Upload PDFs artifact (screen + Letter home-print)
         uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.volume.slug }}-${{ env.SHORT_SHA }}
-          path: ${{ matrix.volume.pdf }}
+          path: dist
           if-no-files-found: error
 
   # Publish every current PDF to GitHub Pages on each push to the default branch.
@@ -100,13 +106,16 @@ jobs:
         uses: actions/checkout@v4
       - name: Set up vendored Typst toolchain
         run: bash build/setup.sh
-      - name: Compile every volume into the site
+      - name: Imposition tooling (publish-support; the Typst compile stays zero-network)
+        run: python3 -m pip install --quiet pypdf reportlab
+      - name: Compile + impose every volume into the site
         run: |
           mkdir -p _site
-          jq -c '.[]' build/volumes.json | while IFS= read -r row; do
+          for row in $(jq -c '.[]' build/volumes.json); do
             entry=$(echo "$row" | jq -r .entry)
             pdf=$(echo "$row" | jq -r .pdf)
             /tmp/typst-bin/typst compile --font-path build/fonts "build/$entry" "_site/$pdf"
+            python3 build/impose_letter.py "_site/$pdf" "_site/${pdf%.pdf}-print-letter.pdf"
           done
       - name: Write the landing page (one card per volume)
         run: |
@@ -115,12 +124,15 @@ jobs:
           vols = json.load(open("build/volumes.json"))
           cards = []
           for v in vols:
+              pdf = v["pdf"]
+              letter = (pdf[:-4] if pdf.endswith(".pdf") else pdf) + "-print-letter.pdf"
               cards.append(
                   '<article class="card">'
                   f'<div class="he">{html.escape(v.get("title_he",""))}</div>'
                   f'<h2>{html.escape(v["title"])}</h2>'
                   f'<p>{html.escape(v.get("blurb",""))}</p>'
-                  f'<p><a class="btn" href="{html.escape(v["pdf"])}">Download the PDF</a></p>'
+                  f'<p><a class="btn" href="{html.escape(pdf)}">Read on screen (7×10 PDF)</a>'
+                  f'<a class="btn" href="{html.escape(letter)}">Print at home (US Letter)</a></p>'
                   '</article>')
           first_pdf = html.escape(vols[0]["pdf"]) if vols else ""
           print(f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
@@ -173,7 +185,9 @@ jobs:
         uses: actions/checkout@v4
       - name: Set up vendored Typst toolchain
         run: bash build/setup.sh
-      - name: Resolve the volume and build its release PDF
+      - name: Imposition tooling (publish-support; the Typst compile stays zero-network)
+        run: python3 -m pip install --quiet pypdf reportlab
+      - name: Resolve the volume and build its release PDFs (screen + Letter home-print)
         run: |
           tag="${GITHUB_REF_NAME}"          # e.g. shabbat-v1.1
           prefix="${tag%-v*}"               # e.g. shabbat
@@ -185,15 +199,18 @@ jobs:
           entry=$(echo "$row" | jq -r .entry)
           title=$(echo "$row" | jq -r .title)
           out="${title// /-}-${tag}.pdf"
+          letter="${out%.pdf}-print-letter.pdf"
           /tmp/typst-bin/typst compile --font-path build/fonts "build/$entry" "$out"
+          python3 build/impose_letter.py "$out" "$letter"
           echo "REL_PDF=$out" >> "$GITHUB_ENV"
+          echo "REL_LETTER=$letter" >> "$GITHUB_ENV"
           echo "REL_TITLE=$title" >> "$GITHUB_ENV"
-      - name: Create the release and attach the PDF
+      - name: Create the release and attach the PDFs
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh release create "${GITHUB_REF_NAME}" \
-            "${REL_PDF}" \
+            "${REL_PDF}" "${REL_LETTER}" \
             --repo "${GITHUB_REPOSITORY}" \
             --title "${REL_TITLE} ${GITHUB_REF_NAME}" \
-            --notes "Compiled siddur PDF for ${GITHUB_REF_NAME}, built from the vendored zero-network Typst toolchain in this repo. The healing prayer prints the public classical-formula placeholder (see FORK-YOUR-OWN.md §6)."
+            --notes "Compiled siddur PDFs for ${GITHUB_REF_NAME}, built from the vendored zero-network Typst toolchain in this repo. Two forms: the screen/reading PDF (true 7×10 trim) and a US-Letter home-print imposition with crop marks (print double-sided, cut on the marks). The healing prayer prints the public classical-formula placeholder (see FORK-YOUR-OWN.md §6)."
