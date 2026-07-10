@@ -103,7 +103,7 @@ jobs:
       - name: Compile every volume into the site
         run: |
           mkdir -p _site
-          for row in $(jq -c '.[]' build/volumes.json); do
+          jq -c '.[]' build/volumes.json | while IFS= read -r row; do
             entry=$(echo "$row" | jq -r .entry)
             pdf=$(echo "$row" | jq -r .pdf)
             /tmp/typst-bin/typst compile --font-path build/fonts "build/$entry" "_site/$pdf"
